@@ -1,0 +1,4 @@
+comparison,delta_mrr,ci_low,ci_high,wilcoxon_p
+order-2 vs order-3,-0.0116,-0.0229,-0.0024,2.780e-03
+order-2 vs order-4,-0.0142,-0.0269,-0.0024,4.963e-04
+order-3 vs order-4,-0.0025,-0.0097,0.0046,1.666e-02
