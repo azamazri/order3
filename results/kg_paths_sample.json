@@ -1,0 +1,1779 @@
+[
+  {
+    "query": {
+      "name": "1 Million Rabanne",
+      "global_family": "Woody Spicy",
+      "accords": [
+        "warm spicy",
+        "cinnamon",
+        "citrus",
+        "amber",
+        "woody",
+        "leather",
+        "rose",
+        "animalic",
+        "green",
+        "patchouli"
+      ]
+    },
+    "recommendations": [
+      {
+        "rank": 1,
+        "product_name": "Superclass Man",
+        "local_family": "WARM SPICY",
+        "score": 0.4079181108746585,
+        "is_gold": true,
+        "kg_paths": [
+          {
+            "type": "co_occurrence_edge",
+            "from": "amber",
+            "to": "cinnamon",
+            "weight": 0.06468626019315894,
+            "wheel_super_family": "Amber",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "cinnamon",
+            "to": "citrus",
+            "weight": 0.05642337334766529,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "cinnamon",
+            "to": "woody",
+            "weight": 0.04681681953772808,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "cinnamon",
+            "weight": 0.043605021121023255,
+            "wheel_super_family": "Amber",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "cinnamon",
+            "to": "warm spicy",
+            "weight": 0.043605021121023255,
+            "wheel_super_family": "Amber",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "citrus",
+            "to": "warm spicy",
+            "weight": 0.025260703223706722,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "amber",
+            "to": "citrus",
+            "weight": 0.024021078454361237,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "amber",
+            "to": "warm spicy",
+            "weight": 0.022916621000342665,
+            "wheel_super_family": "Amber",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "amber",
+            "to": "woody",
+            "weight": 0.018112712083080098,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "warm spicy",
+            "to": "woody",
+            "weight": 0.015261326352550288,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "amber",
+            "weight": 0.012409501894498076,
+            "wheel_super_family": "Amber",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "citrus",
+            "to": "woody",
+            "weight": 0.011847784528088127,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "warm spicy",
+            "weight": 0.011207521681284572,
+            "wheel_super_family": "Amber",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "citrus",
+            "weight": 0.006133214488484308,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "woody",
+            "weight": 0.005611151847663606,
+            "wheel_super_family": "Woody",
+            "relation": "shared_accord"
+          }
+        ],
+        "order2_contribution": 0.8064160209419632,
+        "order1_contribution": 0.19358397905803676
+      },
+      {
+        "rank": 2,
+        "product_name": "Senyasen",
+        "local_family": "WOODY",
+        "score": 0.2840879556725661,
+        "is_gold": false,
+        "kg_paths": [
+          {
+            "type": "co_occurrence_edge",
+            "from": "leather",
+            "to": "patchouli",
+            "weight": 0.056256198297757125,
+            "wheel_super_family": "Woody",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "citrus",
+            "to": "patchouli",
+            "weight": 0.046678107445940586,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "citrus",
+            "to": "leather",
+            "weight": 0.0386544072578171,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "patchouli",
+            "to": "woody",
+            "weight": 0.0386544072578171,
+            "wheel_super_family": "Woody",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "patchouli",
+            "weight": 0.03115998453058915,
+            "wheel_super_family": "Woody",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "leather",
+            "to": "woody",
+            "weight": 0.028201130817882628,
+            "wheel_super_family": "Woody",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "leather",
+            "weight": 0.0209614696471705,
+            "wheel_super_family": "Woody",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "citrus",
+            "to": "woody",
+            "weight": 0.0118126810975013,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "citrus",
+            "weight": 0.006115042578912504,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "woody",
+            "weight": 0.005594526741178116,
+            "wheel_super_family": "Woody",
+            "relation": "shared_accord"
+          }
+        ],
+        "order2_contribution": 0.7753124614285987,
+        "order1_contribution": 0.22468753857140142
+      },
+      {
+        "rank": 3,
+        "product_name": "Silk Blossom",
+        "local_family": "FRESH SPICY",
+        "score": 0.27228519225754083,
+        "is_gold": false,
+        "kg_paths": [
+          {
+            "type": "co_occurrence_edge",
+            "from": "cinnamon",
+            "to": "citrus",
+            "weight": 0.05780613716707701,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "cinnamon",
+            "to": "woody",
+            "weight": 0.04796415618840667,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "cinnamon",
+            "weight": 0.04467364644371197,
+            "wheel_super_family": "Amber",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "cinnamon",
+            "to": "warm spicy",
+            "weight": 0.04467364644371197,
+            "wheel_super_family": "Amber",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "citrus",
+            "to": "warm spicy",
+            "weight": 0.025879765580283882,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "warm spicy",
+            "to": "woody",
+            "weight": 0.01563533465202773,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "citrus",
+            "to": "woody",
+            "weight": 0.012138137387437402,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "warm spicy",
+            "weight": 0.011482183662068001,
+            "wheel_super_family": "Amber",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "citrus",
+            "weight": 0.006283520763848449,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "woody",
+            "weight": 0.005748663968967773,
+            "wheel_super_family": "Woody",
+            "relation": "shared_accord"
+          }
+        ],
+        "order2_contribution": 0.7495713436590391,
+        "order1_contribution": 0.250428656340961
+      }
+    ],
+    "gold_rank": 1,
+    "meta": {
+      "method": "order2_cooccurrence_tfidf",
+      "version": "v5.1"
+    }
+  },
+  {
+    "query": {
+      "name": "212 VIP Men By Carolina Herrera",
+      "global_family": "Oriental Woody",
+      "accords": [
+        "fresh spicy",
+        "aromatic",
+        "vodka",
+        "woody",
+        "green",
+        "tropical",
+        "citrus",
+        "fruity",
+        "warm spicy",
+        "fresh"
+      ]
+    },
+    "recommendations": [
+      {
+        "rank": 1,
+        "product_name": "Lovin Him",
+        "local_family": "FLORAL",
+        "score": 0.3894634324560986,
+        "is_gold": false,
+        "kg_paths": [
+          {
+            "type": "co_occurrence_edge",
+            "from": "fresh",
+            "to": "warm spicy",
+            "weight": 0.07629736761639316,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "aromatic",
+            "to": "fresh",
+            "weight": 0.05143207099091422,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "fresh",
+            "to": "fresh spicy",
+            "weight": 0.0457283147723157,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "fresh",
+            "to": "woody",
+            "weight": 0.035593053181081934,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "fresh spicy",
+            "to": "warm spicy",
+            "weight": 0.030597075642123325,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "aromatic",
+            "to": "warm spicy",
+            "weight": 0.02430270386854377,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "warm spicy",
+            "to": "woody",
+            "weight": 0.018000716435874923,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "fresh spicy",
+            "to": "woody",
+            "weight": 0.01702804392570665,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "aromatic",
+            "to": "fresh spicy",
+            "weight": 0.0168007759421881,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "fresh",
+            "weight": 0.016152883349415944,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "aromatic",
+            "to": "woody",
+            "weight": 0.01481171635703707,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "warm spicy",
+            "weight": 0.013219258606576537,
+            "wheel_super_family": "Amber",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "fresh spicy",
+            "weight": 0.012276686307787105,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "aromatic",
+            "weight": 0.010604418472786084,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "woody",
+            "weight": 0.006618346987354052,
+            "wheel_super_family": "Woody",
+            "relation": "shared_accord"
+          }
+        ],
+        "order2_contribution": 0.848839226438657,
+        "order1_contribution": 0.15116077356134297
+      },
+      {
+        "rank": 2,
+        "product_name": "Fresh Matcha",
+        "local_family": "GREEN",
+        "score": 0.3760547035752428,
+        "is_gold": false,
+        "kg_paths": [
+          {
+            "type": "co_occurrence_edge",
+            "from": "aromatic",
+            "to": "fresh",
+            "weight": 0.05326594965043246,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "fresh",
+            "to": "fresh spicy",
+            "weight": 0.04735881844407133,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "fresh",
+            "to": "green",
+            "weight": 0.034551615949343396,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "fresh spicy",
+            "to": "green",
+            "weight": 0.032575630223598113,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "aromatic",
+            "to": "green",
+            "weight": 0.030857348797378684,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "citrus",
+            "to": "green",
+            "weight": 0.029343078448417638,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "citrus",
+            "to": "fresh",
+            "weight": 0.027371898754647413,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "green",
+            "weight": 0.019771389469785697,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "citrus",
+            "to": "fresh spicy",
+            "weight": 0.018912450067561145,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "aromatic",
+            "to": "fresh spicy",
+            "weight": 0.017399829876243545,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "fresh",
+            "weight": 0.01672883581435585,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "aromatic",
+            "to": "citrus",
+            "weight": 0.01672883581435585,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "fresh spicy",
+            "weight": 0.012714427829675806,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "aromatic",
+            "weight": 0.010982533068585248,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "citrus",
+            "weight": 0.007492061366790636,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          }
+        ],
+        "order2_contribution": 0.8200015931042607,
+        "order1_contribution": 0.17999840689573945
+      },
+      {
+        "rank": 3,
+        "product_name": "Spell Out",
+        "local_family": "CITRUS",
+        "score": 0.360688512364611,
+        "is_gold": false,
+        "kg_paths": [
+          {
+            "type": "co_occurrence_edge",
+            "from": "fresh spicy",
+            "to": "fruity",
+            "weight": 0.04484848633912712,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "aromatic",
+            "to": "fruity",
+            "weight": 0.04131051102102803,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "fruity",
+            "to": "green",
+            "weight": 0.03980318163773079,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "fresh spicy",
+            "to": "green",
+            "weight": 0.03396342979487095,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "aromatic",
+            "to": "green",
+            "weight": 0.03217194548016509,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "citrus",
+            "to": "green",
+            "weight": 0.03059316360136856,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "green",
+            "weight": 0.02061369783469831,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "citrus",
+            "to": "fresh spicy",
+            "weight": 0.01971816556455457,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "citrus",
+            "to": "fruity",
+            "weight": 0.01971816556455457,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "aromatic",
+            "to": "fresh spicy",
+            "weight": 0.018141104144054284,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "aromatic",
+            "to": "citrus",
+            "weight": 0.017441524134173488,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "fresh spicy",
+            "weight": 0.013256092791178875,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "aromatic",
+            "weight": 0.011450415181055669,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "fruity",
+            "weight": 0.009847388219368806,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "citrus",
+            "weight": 0.0078112410566819395,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          }
+        ],
+        "order2_contribution": 0.8253927338297932,
+        "order1_contribution": 0.17460726617020692
+      }
+    ],
+    "gold_rank": 230,
+    "meta": {
+      "method": "order2_cooccurrence_tfidf",
+      "version": "v5.1"
+    }
+  },
+  {
+    "query": {
+      "name": "5th Avenue",
+      "global_family": "Floral",
+      "accords": [
+        "floral",
+        "white floral",
+        "yellow floral",
+        "fresh",
+        "green",
+        "sweet",
+        "powdery",
+        "citrus"
+      ]
+    },
+    "recommendations": [
+      {
+        "rank": 1,
+        "product_name": "Five Years",
+        "local_family": "FLORAL",
+        "score": 0.6565904889661816,
+        "is_gold": false,
+        "kg_paths": [
+          {
+            "type": "co_occurrence_edge",
+            "from": "green",
+            "to": "yellow floral",
+            "weight": 0.08920296764064903,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "floral",
+            "to": "yellow floral",
+            "weight": 0.07780836814307496,
+            "wheel_super_family": "Floral",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "fresh",
+            "to": "yellow floral",
+            "weight": 0.07780836814307496,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "white floral",
+            "to": "yellow floral",
+            "weight": 0.06456083913015777,
+            "wheel_super_family": "Floral",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "yellow floral",
+            "weight": 0.05650976419327635,
+            "wheel_super_family": "Floral",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "floral",
+            "to": "green",
+            "weight": 0.04472969526441463,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "green",
+            "to": "white floral",
+            "weight": 0.041613571612420526,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "fresh",
+            "to": "green",
+            "weight": 0.039005194718540234,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "floral",
+            "to": "white floral",
+            "weight": 0.03312529550571373,
+            "wheel_super_family": "Floral",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "fresh",
+            "to": "white floral",
+            "weight": 0.03312529550571373,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "floral",
+            "to": "fresh",
+            "weight": 0.027860133976443217,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "green",
+            "weight": 0.022319850314837224,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "fresh",
+            "weight": 0.01888512245881917,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "white floral",
+            "weight": 0.01691294394985681,
+            "wheel_super_family": "Floral",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "floral",
+            "weight": 0.01312307840918923,
+            "wheel_super_family": "Floral",
+            "relation": "shared_accord"
+          }
+        ],
+        "order2_contribution": 0.8054331254064834,
+        "order1_contribution": 0.1945668745935166
+      },
+      {
+        "rank": 2,
+        "product_name": "Tow Combination",
+        "local_family": "FRUITY",
+        "score": 0.5237998730650297,
+        "is_gold": false,
+        "kg_paths": [
+          {
+            "type": "co_occurrence_edge",
+            "from": "floral",
+            "to": "green",
+            "weight": 0.0560693005004301,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "green",
+            "to": "white floral",
+            "weight": 0.05216319578839655,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "fresh",
+            "to": "green",
+            "weight": 0.04889355876053815,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "citrus",
+            "to": "green",
+            "weight": 0.04152302261162556,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "floral",
+            "to": "white floral",
+            "weight": 0.04152302261162556,
+            "wheel_super_family": "Floral",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "fresh",
+            "to": "white floral",
+            "weight": 0.04152302261162556,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "citrus",
+            "to": "fresh",
+            "weight": 0.03873363092799968,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "citrus",
+            "to": "white floral",
+            "weight": 0.034923068772842444,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "floral",
+            "to": "fresh",
+            "weight": 0.034923068772842444,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "citrus",
+            "to": "floral",
+            "weight": 0.03362147275394433,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "green",
+            "weight": 0.027978245481650843,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "fresh",
+            "weight": 0.02367276593036299,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "white floral",
+            "weight": 0.021200612502850748,
+            "wheel_super_family": "Floral",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "floral",
+            "weight": 0.01644996288183781,
+            "wheel_super_family": "Floral",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "citrus",
+            "weight": 0.010601922156456967,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          }
+        ],
+        "order2_contribution": 0.8092716052629583,
+        "order1_contribution": 0.19072839473704176
+      },
+      {
+        "rank": 3,
+        "product_name": "Eternal Sunset",
+        "local_family": "GREEN",
+        "score": 0.3863600845884282,
+        "is_gold": false,
+        "kg_paths": [
+          {
+            "type": "co_occurrence_edge",
+            "from": "green",
+            "to": "powdery",
+            "weight": 0.06795634472192756,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "fresh",
+            "to": "powdery",
+            "weight": 0.06429266984357486,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "floral",
+            "to": "green",
+            "weight": 0.0537901128077437,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "fresh",
+            "to": "green",
+            "weight": 0.04690606121046968,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "floral",
+            "to": "powdery",
+            "weight": 0.03800356668140888,
+            "wheel_super_family": "Floral",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "floral",
+            "to": "fresh",
+            "weight": 0.033503464322145,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "green",
+            "weight": 0.026840944459601387,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "fresh",
+            "weight": 0.022710480396590096,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "powdery",
+            "weight": 0.01657515963674194,
+            "wheel_super_family": "Floral",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "floral",
+            "weight": 0.015781280508225082,
+            "wheel_super_family": "Floral",
+            "relation": "shared_accord"
+          }
+        ],
+        "order2_contribution": 0.7880012240694811,
+        "order1_contribution": 0.21199877593051888
+      }
+    ],
+    "gold_rank": 16,
+    "meta": {
+      "method": "order2_cooccurrence_tfidf",
+      "version": "v5.1"
+    }
+  },
+  {
+    "query": {
+      "name": "Al Rehab Dalal",
+      "global_family": "Not classified / fragrance for women and men",
+      "accords": [
+        "caramel",
+        "vanilla",
+        "sweet",
+        "citrus",
+        "woody",
+        "powdery",
+        "balsamic",
+        "warm spicy"
+      ]
+    },
+    "recommendations": [
+      {
+        "rank": 1,
+        "product_name": "Spicy Day",
+        "local_family": "AMBER",
+        "score": 0.4154997034374505,
+        "is_gold": false,
+        "kg_paths": [
+          {
+            "type": "co_occurrence_edge",
+            "from": "balsamic",
+            "to": "powdery",
+            "weight": 0.07867590478092809,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "balsamic",
+            "to": "warm spicy",
+            "weight": 0.07867590478092809,
+            "wheel_super_family": "Amber",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "balsamic",
+            "to": "woody",
+            "weight": 0.07867590478092809,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "balsamic",
+            "weight": 0.06862601015523145,
+            "wheel_super_family": "Amber",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "powdery",
+            "to": "warm spicy",
+            "weight": 0.03801155214070557,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "powdery",
+            "to": "woody",
+            "weight": 0.021659869022253298,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "warm spicy",
+            "to": "woody",
+            "weight": 0.018561880921211426,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "warm spicy",
+            "weight": 0.013631363229129527,
+            "wheel_super_family": "Amber",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "powdery",
+            "weight": 0.012156642557505171,
+            "wheel_super_family": "Floral",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "woody",
+            "weight": 0.0068246710686297885,
+            "wheel_super_family": "Woody",
+            "relation": "shared_accord"
+          }
+        ],
+        "order2_contribution": 0.7563447430336458,
+        "order1_contribution": 0.24365525696635415
+      },
+      {
+        "rank": 2,
+        "product_name": "Moz Art",
+        "local_family": "AMBER",
+        "score": 0.3898756231625722,
+        "is_gold": false,
+        "kg_paths": [
+          {
+            "type": "co_occurrence_edge",
+            "from": "caramel",
+            "to": "citrus",
+            "weight": 0.0790843400039149,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "caramel",
+            "to": "vanilla",
+            "weight": 0.0790843400039149,
+            "wheel_super_family": "Amber",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "caramel",
+            "to": "sweet",
+            "weight": 0.06898227272175031,
+            "wheel_super_family": "Amber",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "caramel",
+            "weight": 0.05723746067816699,
+            "wheel_super_family": "Amber",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "citrus",
+            "to": "vanilla",
+            "weight": 0.03088331334221863,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "citrus",
+            "to": "sweet",
+            "weight": 0.02253004964841493,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "sweet",
+            "to": "vanilla",
+            "weight": 0.02106643201991576,
+            "wheel_super_family": "Amber",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "vanilla",
+            "weight": 0.013554596850459441,
+            "wheel_super_family": "Amber",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "sweet",
+            "weight": 0.00995445242214036,
+            "wheel_super_family": "Amber",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "citrus",
+            "weight": 0.007498365471675958,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          }
+        ],
+        "order2_contribution": 0.7736589050974187,
+        "order1_contribution": 0.22634109490258128
+      },
+      {
+        "rank": 3,
+        "product_name": "Jeep Black",
+        "local_family": "WARM SPICY",
+        "score": 0.2875178954098382,
+        "is_gold": false,
+        "kg_paths": [
+          {
+            "type": "co_occurrence_edge",
+            "from": "vanilla",
+            "to": "warm spicy",
+            "weight": 0.04480206372280295,
+            "wheel_super_family": "Amber",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "sweet",
+            "to": "warm spicy",
+            "weight": 0.042344329320036005,
+            "wheel_super_family": "Amber",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "citrus",
+            "to": "vanilla",
+            "weight": 0.0412342676886282,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "citrus",
+            "to": "warm spicy",
+            "weight": 0.0412342676886282,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "citrus",
+            "to": "sweet",
+            "weight": 0.03008129626333952,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "sweet",
+            "to": "vanilla",
+            "weight": 0.028127127666901144,
+            "wheel_super_family": "Amber",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "warm spicy",
+            "weight": 0.01829457972882116,
+            "wheel_super_family": "Amber",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "vanilla",
+            "weight": 0.01809760075772781,
+            "wheel_super_family": "Amber",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "sweet",
+            "weight": 0.013290819910411903,
+            "wheel_super_family": "Amber",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "citrus",
+            "weight": 0.010011542662541317,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          }
+        ],
+        "order2_contribution": 0.7923797300532844,
+        "order1_contribution": 0.20762026994671576
+      }
+    ],
+    "gold_rank": 98,
+    "meta": {
+      "method": "order2_cooccurrence_tfidf",
+      "version": "v5.1"
+    }
+  },
+  {
+    "query": {
+      "name": "Alexandria II by xerjoff",
+      "global_family": "Oriental Woody",
+      "accords": [
+        "woody",
+        "amber",
+        "powdery",
+        "oud",
+        "lavender",
+        "warm spicy",
+        "vanilla",
+        "rose",
+        "fresh spicy",
+        "sweet"
+      ]
+    },
+    "recommendations": [
+      {
+        "rank": 1,
+        "product_name": "Black Lax",
+        "local_family": "AMBER",
+        "score": 0.45727526955058106,
+        "is_gold": true,
+        "kg_paths": [
+          {
+            "type": "co_occurrence_edge",
+            "from": "amber",
+            "to": "lavender",
+            "weight": 0.06680093111135789,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "lavender",
+            "to": "powdery",
+            "weight": 0.055427510821134805,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "lavender",
+            "to": "warm spicy",
+            "weight": 0.055427510821134805,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "lavender",
+            "to": "woody",
+            "weight": 0.03700065136008047,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "powdery",
+            "to": "warm spicy",
+            "weight": 0.03700065136008047,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "lavender",
+            "weight": 0.03572655996932471,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "amber",
+            "to": "powdery",
+            "weight": 0.03572655996932471,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "amber",
+            "to": "warm spicy",
+            "weight": 0.027131515361839526,
+            "wheel_super_family": "Amber",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "amber",
+            "to": "woody",
+            "weight": 0.02144405696281821,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "powdery",
+            "to": "woody",
+            "weight": 0.02108383417837789,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "warm spicy",
+            "to": "woody",
+            "weight": 0.01806823573030567,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "amber",
+            "weight": 0.014691895078175655,
+            "wheel_super_family": "Amber",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "warm spicy",
+            "weight": 0.013268843022685372,
+            "wheel_super_family": "Amber",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "powdery",
+            "weight": 0.011833341909174051,
+            "wheel_super_family": "Floral",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "woody",
+            "weight": 0.006643171894766815,
+            "wheel_super_family": "Woody",
+            "relation": "shared_accord"
+          }
+        ],
+        "order2_contribution": 0.8203187065968409,
+        "order1_contribution": 0.17968129340315908
+      },
+      {
+        "rank": 2,
+        "product_name": "Bewitching",
+        "local_family": "FRUITY",
+        "score": 0.43630508428046805,
+        "is_gold": false,
+        "kg_paths": [
+          {
+            "type": "co_occurrence_edge",
+            "from": "fresh spicy",
+            "to": "rose",
+            "weight": 0.06316183200300533,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "fresh spicy",
+            "to": "vanilla",
+            "weight": 0.05084721192828654,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "rose",
+            "to": "vanilla",
+            "weight": 0.04575099085774633,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "rose",
+            "to": "woody",
+            "weight": 0.04369450376829744,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "fresh spicy",
+            "to": "powdery",
+            "weight": 0.04187492184751055,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "powdery",
+            "to": "rose",
+            "weight": 0.032187950012172506,
+            "wheel_super_family": "Floral",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "vanilla",
+            "to": "woody",
+            "weight": 0.02663182050962831,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "powdery",
+            "to": "vanilla",
+            "weight": 0.0250684135188661,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "powdery",
+            "to": "woody",
+            "weight": 0.022097189110177662,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "rose",
+            "weight": 0.021040436047755545,
+            "wheel_super_family": "Floral",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "fresh spicy",
+            "to": "woody",
+            "weight": 0.017913405617468594,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "vanilla",
+            "weight": 0.013756851929978869,
+            "wheel_super_family": "Amber",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "fresh spicy",
+            "weight": 0.012915004355715324,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "powdery",
+            "weight": 0.012402089286045,
+            "wheel_super_family": "Floral",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "woody",
+            "weight": 0.0069624634878139345,
+            "wheel_super_family": "Woody",
+            "relation": "shared_accord"
+          }
+        ],
+        "order2_contribution": 0.8462616010585152,
+        "order1_contribution": 0.15373839894148464
+      },
+      {
+        "rank": 3,
+        "product_name": "Bidden Rose",
+        "local_family": "OUD",
+        "score": 0.4360631090340038,
+        "is_gold": false,
+        "kg_paths": [
+          {
+            "type": "co_occurrence_edge",
+            "from": "oud",
+            "to": "vanilla",
+            "weight": 0.05413627096292075,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "fresh spicy",
+            "to": "vanilla",
+            "weight": 0.05087542749246399,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "fresh spicy",
+            "to": "oud",
+            "weight": 0.048132622145997915,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "oud",
+            "to": "woody",
+            "weight": 0.04026989672796221,
+            "wheel_super_family": "Woody",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "oud",
+            "to": "warm spicy",
+            "weight": 0.037464467875483645,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "vanilla",
+            "to": "warm spicy",
+            "weight": 0.03407508956278198,
+            "wheel_super_family": "Amber",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "fresh spicy",
+            "to": "warm spicy",
+            "weight": 0.03220581138814312,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "oud",
+            "weight": 0.027819132813286754,
+            "wheel_super_family": "Woody",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "vanilla",
+            "to": "woody",
+            "weight": 0.02664659874057264,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "warm spicy",
+            "to": "woody",
+            "weight": 0.01894715969480163,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "co_occurrence_edge",
+            "from": "fresh spicy",
+            "to": "woody",
+            "weight": 0.01792334592346903,
+            "wheel_super_family": "cross_family",
+            "relation": "shared_signature_pair"
+          },
+          {
+            "type": "accord_node",
+            "accord": "warm spicy",
+            "weight": 0.013914301953366253,
+            "wheel_super_family": "Amber",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "vanilla",
+            "weight": 0.013764485727856664,
+            "wheel_super_family": "Amber",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "fresh spicy",
+            "weight": 0.01292217100498539,
+            "wheel_super_family": "Fresh",
+            "relation": "shared_accord"
+          },
+          {
+            "type": "accord_node",
+            "accord": "woody",
+            "weight": 0.006966327019911831,
+            "wheel_super_family": "Woody",
+            "relation": "shared_accord"
+          }
+        ],
+        "order2_contribution": 0.8271203939117714,
+        "order1_contribution": 0.17287960608822867
+      }
+    ],
+    "gold_rank": 1,
+    "meta": {
+      "method": "order2_cooccurrence_tfidf",
+      "version": "v5.1"
+    }
+  }
+]

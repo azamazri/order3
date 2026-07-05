@@ -1,0 +1,15 @@
+# Core
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+openpyxl>=3.1
+
+# Tier-1 baselines
+rank-bm25>=0.2.2            # B3
+gensim>=4.3                 # B5 (Word2Vec), node2vec walks
+node2vec>=0.4              # B6
+networkx>=3.0              # B6 graph
+
+# B4 only (optional; large download on first run, CPU is fine)
+sentence-transformers>=2.2

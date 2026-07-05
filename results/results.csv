@@ -1,0 +1,16 @@
+method,tier,stochastic,MRR,MRR_std,Hits@1,Hits@1_std,Hits@3,Hits@3_std,skipped
+B1_jaccard,T1 baseline,False,0.4277,0.0000,0.3026,0.0000,0.4867,0.0000,False
+B2_tfidf_cos,T1 baseline,False,0.4540,0.0000,0.3349,0.0000,0.5072,0.0000,False
+B3_bm25,T1 baseline,False,0.3879,0.0000,0.2775,0.0000,0.4331,0.0000,False
+B4_sbert,T1 baseline,False,0.2717,0.0000,0.1627,0.0000,0.3110,0.0000,False
+B5_word2vec,T1 baseline,True,0.1848,0.0108,0.1096,0.0129,0.1823,0.0132,False
+B6_node2vec,T1 baseline,True,0.3396,0.0130,0.2330,0.0127,0.3708,0.0309,False
+A1_wheel_treeW,T2 structure,False,0.2836,0.0000,0.1740,0.0000,0.3061,0.0000,False
+A2_ppmi_svd,T2 structure,True,0.4435,0.0010,0.3431,0.0024,0.4976,0.0000,False
+A3_signature,T2 structure,True,0.4331,0.0055,0.3034,0.0099,0.4996,0.0023,False
+A4_bigram_salience,T2 structure,True,0.1393,0.0124,0.0601,0.0154,0.1449,0.0157,False
+A5_bilinear,T2 structure,True,0.1498,0.0265,0.0722,0.0195,0.1495,0.0290,False
+A6_gbm_fusion,T2 structure,True,0.4570,0.0098,0.3250,0.0110,0.5329,0.0139,False
+P1_order2,T3 proposed,False,0.4963,0.0000,0.3780,0.0000,0.5622,0.0000,False
+P2_fusion,T3 proposed,True,0.4998,0.0029,0.3790,0.0056,0.5804,0.0036,False
+P3_hubidf,T3 proposed,False,0.4476,0.0000,0.3349,0.0000,0.4905,0.0000,False
