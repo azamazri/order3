@@ -1,0 +1,22 @@
+computing train/test MRR ...
+
+=== Fase 1 summary ===
+|V| = 115 | w2v tokens = 3447
+B1_jaccard           train 0.4277 test 0.4277 gap +0.0000
+B2_tfidf_cos         train 0.4540 test 0.4540 gap +0.0000
+B3_bm25              train 0.3879 test 0.3879 gap +0.0000
+A1_wheel_treeW       train 0.2836 test 0.2836 gap +0.0000
+order3               train 0.5080 test 0.5080 gap +0.0000
+A3_signature         train 0.4359 test 0.4331 gap +0.0028
+A4_bigram_salience   train 0.5321 test 0.1393 gap +0.3929
+A6_gbm_fusion        train 0.6785 test 0.4513 gap +0.2273
+A5_bilinear          train 0.1844 test 0.1498 gap +0.0347
+A2_ppmi_svd          train 0.4435 test 0.4435 gap +0.0000
+B5_word2vec          train 0.1848 test 0.1848 gap +0.0000
+B6_node2vec          train 0.3396 test 0.3396 gap +0.0000
+A5 loss: 0.6931 -> 0.6378 (min 0.6378) monotone=True diverged=False
+dim sanity: B5_word2vec dim=64 -> degenerate=False
+dim sanity: B6_node2vec dim=64 -> degenerate=False
+dim sanity: A2_ppmi_svd rank=min(50,V-1)=50 -> degenerate=False
+
+wrote D:\Azam\MTI\TESIS\new\fix\results\rerun/phase1_report.md, train_test_gap.csv, a5_loss_curve.csv
