@@ -1,9 +1,9 @@
 """A4 -- Supervised per-bigram salience (high-dim L2 logistic).
 
 Feature vector for (query, product) = indicator over the full bigram vocabulary,
-1 where a specific accord-pair is shared by both. The ranker must learn a salience
-weight per bigram from very sparse labels -> expected to OVERFIT badly (this is the
-point). Trained out-of-fold (GroupKFold-5 by query)."""
+1 where a specific accord-pair is shared by both. The model learns one salience
+weight per bigram (hundreds to thousands of dimensions) from one positive per query.
+Trained out-of-fold (GroupKFold-5 by query)."""
 from __future__ import annotations
 
 import numpy as np

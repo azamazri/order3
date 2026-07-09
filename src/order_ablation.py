@@ -4,8 +4,8 @@ Generalizes the P1 token construction to `max_order`: the token set of a fragran
 the union of ALL accord subsets of size k for k = 1..max_order (k=1 = single accords,
 k=2 = unordered pairs, k=3 = triples, ...). Everything else is IDENTICAL to P1:
 the same IDF formula (base._idf), the same L2 normalization (base._l2norm_rows), the
-same leave-one-out harness and pool (evaluate.per_query_metrics with expected-rank tie
-breaking), the same 209 queries and 340-product pool.
+same full-pool retrieval harness and pool (evaluate.per_query_metrics with expected-rank
+tie breaking), the same 209 queries and 340-product pool.
 
 Sanity: max_order=1 must reproduce B2 (MRR ~0.454); max_order=2 must reproduce P1
 (MRR ~0.496). If not, the generalization is wrong -> the script stops.

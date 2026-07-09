@@ -1,0 +1,358 @@
+@inproceedings{10.1145/3705328.3748754,
+author = {Lutan, Elena-Ruxandra},
+title = {Challenges in Perfume Recommender Systems: Navigating Subjectivity, Context and Sensory Data},
+year = {2025},
+isbn = {9798400713644},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3705328.3748754},
+doi = {10.1145/3705328.3748754},
+abstract = {Compared to other recommender systems domains, perfume recommendation proves to be highly personalized and more challenging due to the very subjective factors and complex mixture of involved senses. Individual perfume preferences are influenced by subtle elements such as emotional associations, personal memories, and unique biochemistry, making it difficult for users to clearly express their olfactory preferences. This paper provides an insight of significant challenges in perfume recommendations planned to be addressed in the context of my ongoing PhD project. By exploring these areas, I aim to make a meaningful contribution to the ongoing development of perfume recommender systems.},
+booktitle = {Proceedings of the Nineteenth ACM Conference on Recommender Systems},
+pages = {1469–1472},
+numpages = {4},
+keywords = {Perfume Recommender System, Perfume Context, Perfume Emotional Perception},
+location = {
+},
+series = {RecSys '25}
+}
+
+@article{NURMUTHIA20251097,
+title = {Personalized Perfume Recommendations Based on User Descriptions Using Cosine and Jaccard Similarity},
+journal = {Procedia Computer Science},
+volume = {269},
+pages = {1097-1106},
+year = {2025},
+note = {The 10th International Conference on Computer Science and Computational Intelligence 2025},
+issn = {1877-0509},
+doi = {https://doi.org/10.1016/j.procs.2025.09.051},
+url = {https://www.sciencedirect.com/science/article/pii/S1877050925027127},
+author = {Laksmi Dwi Nurmuthia and Raina Imtiyaz and Noviyanti Tri {Maretta Sagala}},
+keywords = {Perfume recommendation system, Content-based filtering, Natural Language Processing (NLP), Jaccard similarity, Streamlit},
+abstract = {The research proposes a perfume recommendation system using Natural Language Processing (NLP) and content-based filtering to help consumers choose perfumes in a growing market. The system analyzes descriptive user input in Bahasa Indonesia to identify preferences through keyword matching and a question-answering approach. A dataset of 24,760 perfumes with 11 features, primarily sourced from Fragrantica, was used. The method includes exploratory data analysis, preprocessing, model design based on content-based filtering with Cosine and Jaccard similarity, and evaluation using nDCG@3, Precision@3, Recall@3, Diversity, and Coverage. The system achieved strong performance in Jaccard based recommendation with a Precision@3 and Recall@3 of 0.8889 and an nDCG@3 of 0.8978, while cosine based results are also performed well. A web- based interface using Streamlit was developed to demonstrate the system’s functionality. User feedback was gathered through a survey involving 31 participants, showing positive responses with average scores ranging from 4.2 to 4.6 out of 5 across usability criteria.}
+}
+
+@INPROCEEDINGS{11157374,
+  author={Aurora, Fannisa Eimin and Baizal, Z. K. A.},
+  booktitle={2025 International Conference on Data Science and Its Applications (ICoDSA)}, 
+  title={Perfume Product Selection Recommender System Using Content-based Filtering Approach}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={86-90},
+  keywords={Analytical models;Sentiment analysis;Accuracy;Text analysis;Filtering;Reviews;Data models;Stability analysis;Electronic commerce;Recommender systems;content-based filtering;TF-IDF;Word2Vec;recommender systems;perfume},
+  doi={10.1109/ICoDSA67155.2025.11157374}}
+
+@article{10.1145/3511019,
+author = {Ma, Ting and Huang, Longtao and Lu, Qianqian and Hu, Songlin},
+title = {KR-GCN: Knowledge-Aware Reasoning with Graph Convolution Network for Explainable Recommendation},
+year = {2023},
+issue_date = {January 2023},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {41},
+number = {1},
+issn = {1046-8188},
+url = {https://doi.org/10.1145/3511019},
+doi = {10.1145/3511019},
+abstract = {Incorporating knowledge graphs (KGs) into recommender systems to provide explainable recommendation has attracted much attention recently. The multi-hop paths in KGs can provide auxiliary facts for improving recommendation performance as well as explainability. However, existing studies may suffer from two major challenges: error propagation and weak explainability. Considering all paths between every user-item pair might involve irrelevant ones, which leads to error propagation of user preferences. Defining meta-paths might alleviate the error propagation, but the recommendation performance would heavily depend on the pre-defined meta-paths. Some recent methods based on graph convolution network (GCN) achieve better recommendation performance, but fail to provide explainability. To tackle the above problems, we propose a novel method named Knowledge-aware Reasoning with Graph Convolution Network (KR-GCN). Specifically, to alleviate the effect of error propagation, we design a transition-based method to determine the triple-level scores and utilize nucleus sampling to select triples within the paths between every user-item pair adaptively. To improve the recommendation performance and guarantee the diversity of explanations, user-item interactions and knowledge graphs are integrated into a heterogeneous graph, which is performed with the graph convolution network. A path-level self-attention mechanism is adopted to discriminate the contributions of different selected paths and predict the interaction probability, which improves the relevance of the final explanation. Extensive experiments conducted on three real-world datasets show that KR-GCN consistently outperforms several state-of-the-art baselines. And human evaluation proves the superiority of KR-GCN on explainability.},
+journal = {ACM Trans. Inf. Syst.},
+month = jan,
+articleno = {4},
+numpages = {27},
+keywords = {Explainable recommendation, knowledge graphs, error propagation, graph convolution network}
+}
+
+@ARTICLE{9681226,
+  author={Lyu, Ziyu and Wu, Yue and Lai, Junjie and Yang, Min and Li, Chengming and Zhou, Wei},
+  journal={IEEE Transactions on Knowledge and Data Engineering}, 
+  title={Knowledge Enhanced Graph Neural Networks for Explainable Recommendation}, 
+  year={2023},
+  volume={35},
+  number={5},
+  pages={4954-4968},
+  keywords={Semantics;Cognition;Knowledge engineering;Graph neural networks;Modeling;Representation learning;Collaboration;Recommender systems;explainable recommendation;graph neural networks;knowledge reasoning},
+  doi={10.1109/TKDE.2022.3142260}}
+
+
+  @inproceedings{10.1145/3292500.3330989,
+author = {Wang, Xiang and He, Xiangnan and Cao, Yixin and Liu, Meng and Chua, Tat-Seng},
+title = {KGAT: Knowledge Graph Attention Network for Recommendation},
+year = {2019},
+isbn = {9781450362016},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3292500.3330989},
+doi = {10.1145/3292500.3330989},
+abstract = {To provide more accurate, diverse, and explainable recommendation, it is compulsory to go beyond modeling user-item interactions and take side information into account. Traditional methods like factorization machine (FM) cast it as a supervised learning problem, which assumes each interaction as an independent instance with side information encoded. Due to the overlook of the relations among instances or items (e.g., the director of a movie is also an actor of another movie), these methods are insufficient to distill the collaborative signal from the collective behaviors of users. In this work, we investigate the utility of knowledge graph (KG), which breaks down the independent interaction assumption by linking items with their attributes. We argue that in such a hybrid structure of KG and user-item graph, high-order relations --- which connect two items with one or multiple linked attributes --- are an essential factor for successful recommendation. We propose a new method named Knowledge Graph Attention Network (KGAT) which explicitly models the high-order connectivities in KG in an end-to-end fashion. It recursively propagates the embeddings from a node's neighbors (which can be users, items, or attributes) to refine the node's embedding, and employs an attention mechanism to discriminate the importance of the neighbors. Our KGAT is conceptually advantageous to existing KG-based recommendation methods, which either exploit high-order relations by extracting paths or implicitly modeling them with regularization. Empirical results on three public benchmarks show that KGAT significantly outperforms state-of-the-art methods like Neural FM and RippleNet. Further studies verify the efficacy of embedding propagation for high-order relation modeling and the interpretability benefits brought by the attention mechanism. We release the codes and datasets at https://github.com/xiangwang1223/knowledge_graph_attention_network.},
+booktitle = {Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining},
+pages = {950–958},
+numpages = {9},
+keywords = {recommendation, knowledge graph, higher-order connectivity, graph neural network, embedding propagation, collaborative filtering},
+location = {Anchorage, AK, USA},
+series = {KDD '19}
+}
+
+@article{HAO2024103790,
+title = {Simplices-based higher-order enhancement graph neural network for multi-behavior recommendation},
+journal = {Information Processing & Management},
+volume = {61},
+number = {5},
+pages = {103790},
+year = {2024},
+issn = {0306-4573},
+doi = {https://doi.org/10.1016/j.ipm.2024.103790},
+url = {https://www.sciencedirect.com/science/article/pii/S030645732400150X},
+author = {Qingbo Hao and Chundong Wang and Yingyuan Xiao and Hao Lin},
+keywords = {Multi-behavior recommendations, Higher-order enhancement, Graph neural network, Implicit relationships},
+abstract = {Multi-behavior recommendations effectively integrate various types of behaviors and have been proven to enhance recommendation performance. However, existing researches primarily focus on distinguishing between various behaviors, neglecting the exploration of common representations within each behavior that might reflect individual preferences from different perspectives. Meanwhile, interactions within each behavior remain sparse; how to learn effective information from limited data poses a significant challenge. In this study, we propose a simplices-based higher-order enhancement graph neural network for multi-behavior recommendations, HEM-GNN. Specifically, we adopt a supervised method to distinguish the importance of different behaviors and perform inter-behavior representation learning. Meanwhile, for each behavior, we define implicit relationships to mitigate data sparsity, and then aggregate information from nodes within simplices to extract their higher-order commonalities. Finally, HEM-GNN leverages these representations to make recommendations. Through experiments on three public datasets (Taobao, Beibei, and IJCAI), HEM-GNN demonstrates better performance compared to 10 baseline algorithms. It outperforms state-of-the-art models by margins ranging from 8.99% to 10.58% in HR@K and 8.18% to 9.69% in NDCG@K, highlighting the significance of higher-order features in multi-behavior recommendations. The model and datasets are released at: https://github.com/SamuelZack/MultiRec.}
+}
+
+TY  - JOUR
+AU  - Gwadabe, Tajuddeen Rabiu
+AU  - Liu, Ying
+PY  - 2022
+DA  - 2022/05/01
+TI  - IC-GAR: item co-occurrence graph augmented session-based recommendation
+JO  - Neural Computing and Applications
+SP  - 7581
+EP  - 7596
+VL  - 34
+IS  - 10
+AB  - Session-based recommendation aims to recommend the next item of an anonymous user session. Previous models consider only the current session and learn both of the user’s global and local preferences. These models fail to consider an important source of information, i.e., the co-occurrence pattern of items in different sessions. The co-occurrence patterns elicit the trajectory of other similar users and can improve the recommendation performance. We propose an Item Co-occurrence Graph Augmented Session-based Recommendation (IC-GAR) model, a novel session-based recommendation model that augments the representations of the current session with session co-occurrence patterns. IC-GAR consists of three modules: Encode Module, Session Co-occurrence Module and Prediction Module. The Encoder Module learns both of the user’s global and local preference from the current session using Gate Recurrent Units (GRU). The Session Co-occurrence Module uses a modified variant of Graph Convolutional Network (GCN) to model higher order interactions between the item transition patterns in the training sessions. By aggregating the GCN representation of items of the current session, session co-occurrence representation is learned. The Prediction Module decomposes global preference, local preference and session co-occurrence to predict the probability scores of candidate items. Extensive experiments on three publicly available datasets are conducted to demonstrate the effectiveness of IC-GAR. 8.5–39.2% improvement are achieved across datasets in Precision @5, 10 and MRR@5, 10.
+SN  - 1433-3058
+UR  - https://doi.org/10.1007/s00521-021-06859-x
+DO  - 10.1007/s00521-021-06859-x
+ID  - Gwadabe2022
+ER  - 
+
+
+@Article{math13020302,
+AUTHOR = {Cai, Congyu and Chen, Hong and Liu, Yunxuan and Chen, Daoquan and Zhou, Xiuze and Lin, Yuanguo},
+TITLE = {Graph-Based Feature Crossing to Enhance Recommender Systems},
+JOURNAL = {Mathematics},
+VOLUME = {13},
+YEAR = {2025},
+NUMBER = {2},
+ARTICLE-NUMBER = {302},
+URL = {https://www.mdpi.com/2227-7390/13/2/302},
+ISSN = {2227-7390},
+ABSTRACT = {In recommendation tasks, most existing models that learn users’ preferences from user–item interactions ignore the relationships between items. Additionally, ensuring that the crossed features capture both global graph structures and local context is non-trivial, requiring innovative techniques for multi-scale representation learning. To overcome these difficulties, we develop a novel neural network, CoGraph, which uses a graph to build the relations between items. The item co-occurrence pattern assumes that certain items consistently appear in pairs in users’ viewing or consumption logs. First, to learn relationships between items, a graph whose distance is measured by Normalised Point-Wise Mutual Information (NPMI) is applied to link items for the co-occurrence pattern. Then, to learn as many useful features as possible for higher recommendation quality, a Convolutional Neural Network (CNN) and the Transformer model are used to parallelly learn local and global feature interactions. Finally, a series of comprehensive experiments were conducted on several public data sets to show the performance of our model. It provides valuable insights into the capability of our model in recommendation tasks and offers a viable pathway for the public data operation.},
+DOI = {10.3390/math13020302}
+}
+
+@article{10.1109/TKDE.2023.3309995,
+author = {Zhang, Xiaokun and Xu, Bo and Ma, Fenglong and Li, Chenliang and Yang, Liang and Lin, Hongfei},
+title = {Beyond Co-Occurrence: Multi-Modal Session-Based Recommendation},
+year = {2024},
+issue_date = {April 2024},
+publisher = {IEEE Educational Activities Department},
+address = {USA},
+volume = {36},
+number = {4},
+issn = {1041-4347},
+url = {https://doi.org/10.1109/TKDE.2023.3309995},
+doi = {10.1109/TKDE.2023.3309995},
+abstract = {Session-based recommendation is devoted to characterizing preferences of anonymous users based on short sessions. Existing methods mostly focus on mining limited item co-occurrence patterns exposed by item ID within sessions, while ignoring what attracts users to engage with certain items is rich multi-modal information displayed on pages. Generally, the multi-modal information can be classified into two categories: descriptive information (e.g., item images and description text) and numerical information (e.g., price). In this paper, we aim to improve session-based recommendation by modeling the above multi-modal information holistically. There are mainly three issues to reveal user intent from multi-modal information: (1) How to extract relevant semantics from heterogeneous descriptive information with different noise? (2) How to fuse these heterogeneous descriptive information to comprehensively infer user interests? (3) How to handle probabilistic influence of numerical information on user behaviors? To solve above issues, we propose a novel multi-modal session-based recommendation (MMSBR) that models both descriptive and numerical information under a unified framework. Specifically, a pseudo-modality contrastive learning is devised to enhance the representation learning of descriptive information. Afterwards, a hierarchical pivot transformer is presented to fuse heterogeneous descriptive information. Moreover, we represent numerical information with Gaussian distribution and design a Wasserstein self-attention to handle the probabilistic influence mode. Extensive experiments on three real-world datasets demonstrate the effectiveness of the proposed MMSBR. Further analysis also proves that our MMSBR can alleviate the cold-start problem in SBR effectively.},
+journal = {IEEE Trans. on Knowl. and Data Eng.},
+month = apr,
+pages = {1450–1462},
+numpages = {13}
+}
+
+
+@Article{cosmetics7010011,
+AUTHOR = {Zarzo, Manuel},
+TITLE = {Multivariate Analysis of Olfactory Profiles for 140 Perfumes as a Basis to Derive a Sensory Wheel for the Classification of Feminine Fragrances},
+JOURNAL = {Cosmetics},
+VOLUME = {7},
+YEAR = {2020},
+NUMBER = {1},
+ARTICLE-NUMBER = {11},
+URL = {https://www.mdpi.com/2079-9284/7/1/11},
+ISSN = {2079-9284},
+ABSTRACT = {In order to guide consumers in their purchase of a new fragrance, one approach is to visualize the spectrum of men’s or women’s fragrances on a two-dimensional plot. One of such sensory maps available is the Hexagon of Fragrance Families. It displays 91 women’s perfumes inside a polygon, so that each side accounts for a different olfactory class. In order to discuss this chart, odor profiles were obtained for these fragrances and additional feminine ones (140 in total, launched from 1912 to 1990). An olfactory dataset was arranged by coding numerically the descriptions obtained from Fragrantica and Osmoz websites, as well as from a perfume guide. By applying principal component analysis, a sensory map was obtained that properly reflected the similarities between odor descriptors. Such representation was equivalent to the map of feminine fragrances called Givaudan Analogies, comprised of five major categories. Based on the results, a modified version of the Hexagon based on 14 categories was proposed. The first principal component explained preference for daytime versus nighttime wear, and regression models were fitted in order to estimate such preferences according to the odor profiles. The second component basically discriminated floral versus chypre (mossy–woody) fragrances. Results provide a fundamental basis to develop standard sensory maps of women’s fragrances.},
+DOI = {10.3390/cosmetics7010011}
+}
+
+
+
+@article{10.1371/journal.pone.0291767,
+    doi = {10.1371/journal.pone.0291767},
+    author = {Kumari, Priyadarshini AND Besold, Tarek AND Spranger, Michael},
+    journal = {PLOS ONE},
+    publisher = {Public Library of Science},
+    title = {Perceptual metrics for odorants: Learning from non-expert similarity feedback using machine learning},
+    year = {2023},
+    month = {11},
+    volume = {18},
+    url = {https://doi.org/10.1371/journal.pone.0291767},
+    pages = {1-19},
+    abstract = {Defining perceptual similarity metrics for odorant comparisons is crucial to understanding the mechanism of olfactory perception. Current methods in olfaction rely on molecular physicochemical features or discrete verbal descriptors (floral, burnt, etc.) to approximate perceptual (dis)similarity between odorants. However, structural or verbal descriptors alone are limited in modeling complex nuances of odor perception. While structural features inadequately characterize odor perception, language-based discrete descriptors lack the granularity needed to model a continuous perception space. We introduce data-driven approaches to perceptual metrics learning (PMeL) based on two key insights: a) by combining physicochemical features with the user’s perceptual feedback, we can leverage both structural and perceptual attributes of odors to define dissimilarity, and b) instead of discrete labels, user’s perceptual feedback can be gathered as relative similarity comparisons, such as “Does molecule-A smell more like molecule-B, or molecule-C?” These triplet comparisons are easier even for non-experts users and offer a more effective representation of the continuous perception space. Experimental results on several defined tasks show the effectiveness of our approach in evaluating perceptual dissimilarity between odorants. Finally, we investigate how closely our model, trained on non-expert feedback, aligns with the expert’s similarity judgments. Our effort aims to reduce reliance on expert annotations.},
+    number = {11},
+
+}
+
+TY  - JOUR
+AU  - Ravia, Aharon
+AU  - Snitz, Kobi
+AU  - Honigstein, Danielle
+AU  - Finkel, Maya
+AU  - Zirler, Rotem
+AU  - Perl, Ofer
+AU  - Secundo, Lavi
+AU  - Laudamiel, Christophe
+AU  - Harel, David
+AU  - Sobel, Noam
+PY  - 2020
+DA  - 2020/12/01
+TI  - A measure of smell enables the creation of olfactory metamers
+JO  - Nature
+SP  - 118
+EP  - 123
+VL  - 588
+IS  - 7836
+AB  - Wavelength is a physical measure of light, and the intricate understanding of its link to perceived colour enables the creation of perceptual entities such as metamers—non-overlapping spectral compositions that generate identical colour percepts1. By contrast, scientists have been unable to develop a physical measure linked to perceived smell, even one that merely reflects the extent of perceptual similarity between odorants2. Here, to generate such a measure, we collected perceptual similarity estimates of 49,788 pairwise odorants from 199 participants who smelled 242 different multicomponent odorants and used these data to refine a predictive model that links odorant structure to odorant perception3. The resulting measure combines 21 physicochemical features of the odorants into a single number—expressed in radians—that accurately predicts the extent of perceptual similarity between multicomponent odorant pairs. To assess the usefulness of this measure, we investigated whether we could use it to create olfactory metamers. To this end, we first identified a cut-off in the measure: pairs of multicomponent odorants that were within 0.05 radians of each other or less were very difficult to discriminate. Using this cut-off, we were able to design olfactory metamers—pairs of non-overlapping molecular compositions that generated identical odour percepts. The accurate predictions of perceptual similarity, and the ensuing creation of olfactory metamers, suggest that we have obtained a valid olfactory measure, one that may enable the digitization of smell.
+SN  - 1476-4687
+UR  - https://doi.org/10.1038/s41586-020-2891-7
+DO  - 10.1038/s41586-020-2891-7
+ID  - Ravia2020
+ER  - 
+
+TY  - JOUR
+AU  - Ravia, Aharon
+AU  - Snitz, Kobi
+AU  - Honigstein, Danielle
+AU  - Finkel, Maya
+AU  - Zirler, Rotem
+AU  - Perl, Ofer
+AU  - Secundo, Lavi
+AU  - Laudamiel, Christophe
+AU  - Harel, David
+AU  - Sobel, Noam
+PY  - 2020
+DA  - 2020/12/01
+TI  - A measure of smell enables the creation of olfactory metamers
+JO  - Nature
+SP  - 118
+EP  - 123
+VL  - 588
+IS  - 7836
+AB  - Wavelength is a physical measure of light, and the intricate understanding of its link to perceived colour enables the creation of perceptual entities such as metamers—non-overlapping spectral compositions that generate identical colour percepts1. By contrast, scientists have been unable to develop a physical measure linked to perceived smell, even one that merely reflects the extent of perceptual similarity between odorants2. Here, to generate such a measure, we collected perceptual similarity estimates of 49,788 pairwise odorants from 199 participants who smelled 242 different multicomponent odorants and used these data to refine a predictive model that links odorant structure to odorant perception3. The resulting measure combines 21 physicochemical features of the odorants into a single number—expressed in radians—that accurately predicts the extent of perceptual similarity between multicomponent odorant pairs. To assess the usefulness of this measure, we investigated whether we could use it to create olfactory metamers. To this end, we first identified a cut-off in the measure: pairs of multicomponent odorants that were within 0.05 radians of each other or less were very difficult to discriminate. Using this cut-off, we were able to design olfactory metamers—pairs of non-overlapping molecular compositions that generated identical odour percepts. The accurate predictions of perceptual similarity, and the ensuing creation of olfactory metamers, suggest that we have obtained a valid olfactory measure, one that may enable the digitization of smell.
+SN  - 1476-4687
+UR  - https://doi.org/10.1038/s41586-020-2891-7
+DO  - 10.1038/s41586-020-2891-7
+ID  - Ravia2020
+ER  - 
+
+TY  - JOUR
+AU  - Ahlmann-Eltze, Constantin
+AU  - Huber, Wolfgang
+AU  - Anders, Simon
+PY  - 2025
+DA  - 2025/08/01
+TI  - Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines
+JO  - Nature Methods
+SP  - 1657
+EP  - 1661
+VL  - 22
+IS  - 8
+AB  - Recent research in deep-learning-based foundation models promises to learn representations of single-cell data that enable prediction of the effects of genetic perturbations. Here we compared five foundation models and two other deep learning models against deliberately simple baselines for predicting transcriptome changes after single or double perturbations. None outperformed the baselines, which highlights the importance of critical benchmarking in directing and evaluating method development.
+SN  - 1548-7105
+UR  - https://doi.org/10.1038/s41592-025-02772-6
+DO  - 10.1038/s41592-025-02772-6
+ID  - Ahlmann-Eltze2025
+ER  - 
+
+
+@article{Yao_2022,
+   title={Single Model Deep Learning on Imbalanced Small Datasets for Skin Lesion Classification},
+   volume={41},
+   ISSN={1558-254X},
+   url={http://dx.doi.org/10.1109/TMI.2021.3136682},
+   DOI={10.1109/tmi.2021.3136682},
+   number={5},
+   journal={IEEE Transactions on Medical Imaging},
+   publisher={Institute of Electrical and Electronics Engineers (IEEE)},
+   author={Yao, Peng and Shen, Shuwei and Xu, Mengjuan and Liu, Peng and Zhang, Fan and Xing, Jinyu and Shao, Pengfei and Kaffenberger, Benjamin and Xu, Ronald X.},
+   year={2022},
+   month=May, pages={1242–1254} }
+
+@ARTICLE{9302891,
+  author={Li, Zeju and Kamnitsas, Konstantinos and Glocker, Ben},
+  journal={IEEE Transactions on Medical Imaging}, 
+  title={Analyzing Overfitting Under Class Imbalance in Neural Networks for Image Segmentation}, 
+  year={2021},
+  volume={40},
+  number={3},
+  pages={1065-1077},
+  keywords={Image segmentation;Training;Task analysis;Data models;Training data;Lesions;Sensitivity;Overfitting;class imbalance;image segmentation},
+  doi={10.1109/TMI.2020.3046692}}
+
+TY  - JOUR
+AU  - Rather, Ishfaq Hussain
+AU  - Kumar, Sushil
+AU  - Gandomi, Amir H.
+PY  - 2024
+DA  - 2024/08/02
+TI  - Breaking the data barrier: a review of deep learning techniques for democratizing AI with small datasets
+JO  - Artificial Intelligence Review
+SP  - 226
+VL  - 57
+IS  - 9
+AB  - Justifiably, while big data is the primary interest of research and public discourse, it is essential to acknowledge that small data remains prevalent. The same technological and societal forces that generate big datasets also produce a more significant number of small datasets. Contrary to the notion that more data is inherently superior, real-world constraints such as budget limitations and increased analytical complexity present critical challenges. Quality versus quantity trade-offs necessitate strategic decision-making, where small data often leads to quicker, more accurate, and cost-effective insights. Concentrating AI research, particularly in deep learning (DL), on big datasets exacerbates AI inequality, as tech giants such as Meta, Amazon, Apple, Netflix and Google (MAANG) can easily lead AI research due to their access to vast datasets, creating a barrier for small and mid-sized enterprises that lack similar access. This article addresses this imbalance by exploring DL techniques optimized for small datasets, offering a comprehensive review of historic and state-of-the-art DL models developed specifically for small datasets. This study aims to highlight the feasibility and benefits of these approaches, promoting a more inclusive and equitable AI landscape. Through a PRISMA-based literature search, 175+ relevant articles are identified and subsequently analysed based on various attributes, such as publisher, country, utilization of small dataset technique, dataset size, and performance. This article also delves into current DL models and highlights open research problems, offering recommendations for future investigations. Additionally, the article highlights the importance of developing DL models that effectively utilize small datasets, particularly in domains where data acquisition is difficult and expensive.
+SN  - 1573-7462
+UR  - https://doi.org/10.1007/s10462-024-10859-3
+DO  - 10.1007/s10462-024-10859-3
+ID  - Rather2024
+ER  - 
+
+TY  - JOUR
+AU  - Huang, Yafan
+AU  - Zhao, Feng
+AU  - Gui, Xiangyu
+AU  - Jin, Hai
+PY  - 2021
+DA  - 2021/09/01
+TI  - Path-enhanced explainable recommendation with knowledge graphs
+JO  - World Wide Web
+SP  - 1769
+EP  - 1789
+VL  - 24
+IS  - 5
+AB  - Recommender systems, which are used to predict user requirements precisely, play a vital role in the modern internet industry. As an effective tool with rich semantics, knowledge graphs have recently attracted growing research attention in enhancing recommendation results. By mining multihop relations (i.e., paths) between user-item interactions within a knowledge graph, implicit user preferences and other side information can be clearly revealed. Nevertheless, existing knowledge graph-based recommendation methods have two fundamental limitations. First, the indiscriminate utilization of user-item path sets conveys unclear information and negatively influences explainability. Moreover, obtaining reliable recommendation results with these methods requires large amounts of prior knowledge, which indicates that they show poor performance in terms of accuracy and handling cold-start issues. To address these issues, we propose a novel model called the Path-enhanced Recurrent Network (PeRN). Specifically, PeRN integrates a recurrent neural network encoder with a metapath-based entropy encoder to increase explainability and accuracy and reduce cold-start costs. The recurrent network encoder has a strong ability to represent sequential path semantics in a knowledge graph, while the entropy encoder, as an efficient statistical analysis tool, leverages metapath information to differentiate paths in a single user-item interaction. A path extraction algorithm with a bidirectional scheme is also proposed to make PeRN more feasible. The experimental results on two real-world datasets demonstrate our significant improvements with reasonable explanations, promising accuracy and a minimal amount of prior knowledge compared with several state-of-the-art baselines.
+SN  - 1573-1413
+UR  - https://doi.org/10.1007/s11280-021-00912-4
+DO  - 10.1007/s11280-021-00912-4
+ID  - Huang2021
+ER  - 
+
+@article{Reimers2019SentenceBERTSE,
+  title={Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks},
+  author={Nils Reimers and Iryna Gurevych},
+  journal={ArXiv},
+  year={2019},
+  volume={abs/1908.10084},
+  url={https://api.semanticscholar.org/CorpusID:201646309}
+}
+
+@misc{le2024generalizedsobolevtransportprobability,
+      title={Generalized Sobolev Transport for Probability Measures on a Graph}, 
+      author={Tam Le and Truyen Nguyen and Kenji Fukumizu},
+      year={2024},
+      eprint={2402.04516},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML},
+      url={https://arxiv.org/abs/2402.04516}, 
+}
+
+@ARTICLE{11520243,
+  author={Doan, Tung and Le, Hoang and Vuong, Hong},
+  journal={IEEE Access}, 
+  title={Ordered Tree-Sliced Wasserstein Distance for Sequential Data}, 
+  year={2026},
+  volume={14},
+  number={},
+  pages={74519-74540},
+  keywords={Distance measurement;Timing;Trees (botanical);Vegetation;Sequential analysis;Sequences;Measurement;Visualization;Algorithms;Matrices;Optimal transport;tree metric;sliced Wasserstein distance;sequential data;distance-based time-series classification;distance-based time-series clustering;time-series visualization},
+  doi={10.1109/ACCESS.2026.3693356}}

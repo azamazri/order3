@@ -1,8 +1,9 @@
-"""A6 -- GradientBoosting fusion (overfit demo).
+"""A6 -- GradientBoosting fusion.
 
-Fuses a handful of similarity features with a gradient-boosted tree ensemble, trained
-out-of-fold (GroupKFold-5 by query). Included to show that a flexible learner on these
-sparse labels does not beat the simple order-2 cosine."""
+Fuses a handful of similarity features (including a bigram cosine, itself an order-2
+quantity) with a gradient-boosted tree ensemble (sklearn.GradientBoostingClassifier,
+not XGBoost/LightGBM), trained out-of-fold (GroupKFold-5 by query). Class imbalance is
+handled with balanced sample_weight on .fit()."""
 from __future__ import annotations
 
 import numpy as np
@@ -27,10 +28,13 @@ def _features(feats: Features, qi: int) -> np.ndarray:
 
 def _gbm_fit_predict(Xtr, ytr, Xte, seed):
     from sklearn.ensemble import GradientBoostingClassifier
+    from sklearn.utils.class_weight import compute_sample_weight
     clf = GradientBoostingClassifier(random_state=seed, n_estimators=200,
                                      max_depth=3, learning_rate=0.05,
                                      subsample=0.8)
-    clf.fit(Xtr, ytr)
+    # GradientBoostingClassifier has no class_weight; use balanced sample_weight
+    # so imbalance handling matches A3/A4 (class_weight="balanced").
+    clf.fit(Xtr, ytr, sample_weight=compute_sample_weight("balanced", ytr))
     return clf.predict_proba(Xte)[:, 1]
 
 

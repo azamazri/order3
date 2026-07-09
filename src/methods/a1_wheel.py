@@ -2,7 +2,7 @@
 
 Each fragrance becomes a uniform distribution over its lexicon-mapped accords; the
 score is the negative closed-form tree-W1 distance on the frozen Edwards wheel.
-Perceptual/taxonomic structure -- expected to LOSE (sparse, coarse). The lexicon is
+Perceptual/taxonomic structure (data-independent). The lexicon is
 frozen and never touches the labels."""
 from __future__ import annotations
 

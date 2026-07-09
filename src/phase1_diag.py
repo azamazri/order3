@@ -2,7 +2,7 @@
 
 Determines whether the parametric comparators OVERFIT or UNDERFIT / are misconfigured,
 by measuring in-fold (train) vs out-of-fold (test) MRR under the *identical* protocol
-(leave-one-out, 209 queries, pool 340, expected-rank tie-breaking, GroupKFold-5 by query).
+(full-pool retrieval, 209 queries, pool 340, expected-rank tie-breaking, GroupKFold-5 by query).
 
 Reuses the existing method feature/fit logic by IMPORT only (no old file is modified).
 Outputs: results/rerun/phase1_report.md, train_test_gap.csv, a5_loss_curve.csv.
@@ -240,7 +240,7 @@ def main():
     # ---- write report ----
     with open(RESULTS / "phase1_report.md", "w", encoding="utf-8") as f:
         f.write("# Fase 1 -- Diagnostic Report (fair-baselines)\n\n")
-        f.write("Protocol unchanged: leave-one-out, 209 queries, pool 340, expected-rank "
+        f.write("Protocol unchanged: full-pool retrieval, 209 queries, pool 340, expected-rank "
                 "tie-breaking, GroupKFold-5 by query, 5 seeds for stochastic methods.\n\n")
 
         f.write("## 1.1 Vocabulary / token stats\n\n")

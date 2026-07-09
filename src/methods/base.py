@@ -5,7 +5,7 @@ Every retrieval method is a `Method` exposing
     scores(ds, feats, seed=0) -> np.ndarray of shape (n_queries, n_pool)
 
 where a higher score means "more likely to be the dupe". Deterministic methods
-ignore `seed`; stochastic ones use it. Supervised (learning-to-rank) methods produce
+ignore `seed`; stochastic ones use it. Supervised methods produce
 **out-of-fold** scores via `groupkfold_oof` so a query never appears in both train
 and test (GroupKFold(5) grouped by query).
 
@@ -191,7 +191,7 @@ class Method:
 
 
 # --------------------------------------------------------------------------- #
-# Out-of-fold runner for supervised (LTR) methods
+# Out-of-fold runner for supervised methods
 # --------------------------------------------------------------------------- #
 def label_matrix(ds: Dataset) -> np.ndarray:
     Y = np.zeros((len(ds.queries), ds.n_pool))
@@ -204,7 +204,7 @@ def label_matrix(ds: Dataset) -> np.ndarray:
 def grouped_folds(n_q: int, n_splits: int, seed: int) -> List[np.ndarray]:
     """Assign queries to folds, grouped by query (a query is one indivisible unit).
     The assignment is shuffled by `seed`, so different seeds give different folds --
-    this is the only source of seed variance for the LTR methods."""
+    this is the only source of seed variance for the supervised methods."""
     rng = np.random.default_rng(seed)
     order = rng.permutation(n_q)
     return [np.sort(f) for f in np.array_split(order, min(n_splits, n_q))]

@@ -1,8 +1,10 @@
-"""Leave-one-out dupe-retrieval evaluation: metrics, significance, bootstrap.
+"""Full-pool dupe-retrieval evaluation: metrics, significance, bootstrap.
 
 Protocol
 --------
-* Query = a global perfume with >=1 labeled local dupe.
+* Query = a global perfume with >=1 labeled local dupe. The query is never itself in
+  the pool (it is a global perfume; the pool is the local catalog), so nothing is
+  "left out" -- this is full-pool retrieval, not leave-one-out.
 * Candidate pool = all 340 products (incl. the 97 unlabeled distractors).
 * For each query, rank the whole pool by a method's score; relevance is the held-out
   inspired-by edge. With multiple dupes we take the BEST (min) rank.

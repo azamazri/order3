@@ -1,7 +1,7 @@
-"""P2 -- P1 + logistic LTR fusion (PROPOSED, expected BEST).
+"""P2 -- order-2 + logistic fusion (a VARIANT of the proposed method).
 
 Per (query, product) features: [bigram-cos, unigram-cos, |shared accords|].
-A logistic ranker is trained out-of-fold with GroupKFold(5) by query, so no query
+Plain logistic regression trained out-of-fold with GroupKFold(5) by query, so no query
 is ever in both train and test. Seed variance comes from the fold shuffling."""
 from __future__ import annotations
 
