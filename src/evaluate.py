@@ -35,11 +35,12 @@ from .data import Dataset
 
 
 def accord_containment_report(ds: Dataset, verbose: bool = True) -> Dict[str, float]:
-    """Diagnose the accord-containment artifact. The global accord lists were evidently
-    derived from the dupes, so a product's accords are largely a subset of its global's.
-    This makes RAW (un-weighted) set overlap a near-circular signal -- which is WHY the
-    fair marginal baseline is IDF-weighted (B2), and why ties must be handled correctly
-    (un-weighted overlap leaves many candidates tied at the top)."""
+    """Report the mean containment of a product's accords in its true query's accord list.
+    The Step-1 data audit (results/audit/step1_report.md) measured this at 0.86 for true
+    pairs vs 0.35 for random query-product pairs (only 1.8% fully contained at random),
+    so the high overlap is a real, pair-specific signal, not a vocabulary artifact.
+    IDF weighting (B2) and tie-correct ranking are used for standard IR reasons -- rarity
+    weighting and the fact that un-weighted overlap leaves many candidates tied at the top."""
     cover = []
     for q in ds.queries:
         qa = set(q.accords)
@@ -51,8 +52,8 @@ def accord_containment_report(ds: Dataset, verbose: bool = True) -> Dict[str, fl
     if verbose:
         print(f"[diagnostic] accord containment: on average "
               f"{rep['mean_product_accords_covered_by_global']:.0%} of a dupe's accords "
-              f"are contained in its global's accord list (artifact => raw overlap is "
-              f"near-circular; IDF weighting + tie-correct ranking are required).")
+              f"are contained in its true query's accord list (vs ~35% for random pairs; "
+              f"a real pair-specific signal -- see results/audit/step1_report.md).")
     return rep
 
 
