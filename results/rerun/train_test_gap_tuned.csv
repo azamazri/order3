@@ -1,0 +1,5 @@
+method,mrr_train,mrr_test,gap
+A3_signature,0.5148,0.5131,0.0017
+A4_bigram_salience,0.4441,0.2890,0.1551
+A5_bilinear,0.5022,0.2358,0.2664
+A6_gbm_fusion,0.5520,0.4746,0.0775
