@@ -1,0 +1,62 @@
+token,in_product,in_query,in_global_all,count_products,count_queries
+aldehydic,1,1,1,6,5
+almond,1,1,1,5,4
+amber,1,1,1,63,76
+animalic,1,1,1,13,37
+anis,0,1,1,0,2
+aquatic,1,1,1,21,22
+aromatic,1,1,1,95,82
+balsamic,1,1,1,2,28
+bitter,1,1,1,1,1
+cacao,1,1,1,5,7
+cannabis,1,1,1,1,1
+caramel,1,1,1,6,10
+cherry,1,1,1,4,1
+chocolate,1,1,1,4,2
+cinnamon,1,1,1,5,10
+citrus,1,1,1,144,117
+coconut,1,1,1,3,1
+coffee,1,1,1,6,8
+conifer,1,1,1,1,2
+earthy,1,1,1,11,31
+floral,1,1,1,90,81
+fresh,1,1,1,60,70
+fresh spicy,1,1,1,80,76
+fruity,1,1,1,119,87
+green,1,1,1,43,63
+herbal,1,1,1,3,13
+honey,1,1,1,5,4
+iris,1,1,1,9,14
+lactonic,1,1,1,5,7
+lavender,1,1,1,13,16
+leather,1,1,1,27,28
+marine,1,1,1,9,7
+metallic,1,1,1,3,8
+mineral,0,1,1,0,1
+mossy,1,1,1,3,12
+musky,1,1,1,52,85
+nutty,1,1,1,4,7
+orange,0,0,1,0,0
+oud,1,1,1,24,17
+ozonic,1,1,1,15,19
+patchouli,1,1,1,12,26
+powdery,1,1,1,89,115
+rose,1,1,1,44,55
+rum,1,0,1,1,0
+salty,1,1,1,3,2
+smoky,1,1,1,6,21
+soft spicy,1,1,1,5,21
+sour,0,0,1,0,0
+spicy,0,1,1,0,1
+sweet,1,1,1,114,106
+tobacco,1,1,1,9,10
+tropical,1,1,1,8,15
+tuberose,1,1,1,9,8
+vanilla,1,1,1,83,74
+violet,1,1,1,9,14
+vodka,1,1,1,1,2
+warm spicy,1,1,1,77,75
+whiskey,1,1,1,2,3
+white floral,1,1,1,67,63
+woody,1,1,1,158,135
+yellow floral,1,1,1,6,9
