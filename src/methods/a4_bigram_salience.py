@@ -22,7 +22,7 @@ def _features(feats: Features, qi: int) -> sparse.csr_matrix:
 
 def _l2logreg_fit_predict(Xtr, ytr, Xte, seed):
     from sklearn.linear_model import LogisticRegression
-    clf = LogisticRegression(penalty="l2", C=1.0, max_iter=2000,
+    clf = LogisticRegression(C=1.0, max_iter=2000,
                              class_weight="balanced", solver="liblinear",
                              random_state=seed)
     clf.fit(Xtr, ytr)

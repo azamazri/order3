@@ -84,4 +84,68 @@ error dan tanpa warning — **LULUS**.
   `phase2_tuning`. `src/` kini: `data.py`, `evaluate.py`, `wheel.py`, `methods/`,
   `v3/`. Tuner comparator v3 ditulis ulang di Tahap 8.
 
-*(Bagian 2 — tabel P/L/U + kebenaran implementasi 15 metode — diisi di Tahap 3.)*
+## Bagian 2 — Tabel P/L/U + kebenaran implementasi (Tahap 3)
+
+Diisi dengan **membaca kode**, bukan nama. Sumber CSV: `01_plu.csv`.
+
+- **P** pair-dependent: skor bergantung statistik atas pasangan accord dalam satu fragrance.
+- **L** label-supervised: parameter dilatih dari label `revolutionize`.
+- **U** unsupervised-learned: parameter dipelajari dari data tanpa label.
+
+| metode | file | P | L | U | bukti (mekanisme) |
+|---|---|:-:|:-:|:-:|---|
+| B1_jaccard | b1_jaccard.py | 0 | 0 | 0 | set overlap/union; tanpa pasangan, tanpa learning |
+| B2_tfidf_cos | b2_tfidf.py | 0 | 0 | 0 | order-1 unigram tf-idf cosine; IDF = statistik korpus |
+| B3_bm25 | b3_bm25.py | 0 | 0 | 0 | BM25Okapi atas token unigram; k1/b tetap; tanpa pasangan |
+| B4_sbert | b4_sbert.py | 0 | 0 | 0 | sentence encoder pretrained atas string accord; tak ada param dari data/label kita |
+| B5_word2vec | b5_word2vec.py | **1** | 0 | **1** | skip-gram (sg=1) atas daftar accord sebagai kalimat, window=5 ≥ len(A(p))≈5 → belajar co-occurrence |
+| B6_node2vec | b6_node2vec.py | **1** | 0 | **1** | graf co-occurrence accord eksplisit + random walk + skip-gram |
+| A1_wheel_treeW | a1_wheel.py | 0 | 0 | 0 | tree-W1 atas distribusi unigram uniform pada taksonomi tetap |
+| A2_ppmi_svd | a2_ppmi_svd.py | **1** | 0 | **1** | matriks co-occurrence accord eksplisit → PPMI → TruncatedSVD |
+| A3_signature | a3_signature.py | **1** | **1** | 0 | fitur n_shared_b/w_shared_b/max_rare = bigram bersama; logistic pada label OOF |
+| A4_bigram_salience | a4_bigram_salience.py | **1** | **1** | 0 | indikator bigram bersama atas kosakata bigram penuh; L2 logistic pada label OOF |
+| A5_bilinear | a5_bilinear.py | **1** | **1** | 0 | q^T(diag(d)+L Lᵀ)p; L Lᵀ = cross-accord; d,L dilatih dari label OOF |
+| A6_gbm_fusion | a6_gbm.py | **1** | **1** | 0 | fitur termasuk bigram_cos (order-2); GBM dilatih pada label OOF |
+| P1_order2 | p1_order2.py | **1** | 0 | 0 | unigram+bigram (order-N) tf-idf cosine; IDF statistik; N hyperparam via nested CV |
+| P2_fusion | p2_fusion.py | **1** | **1** | 0 | fitur [bigram_cos,unigram_cos,shared]; logistic pada label OOF |
+| P3_hubidf | p3_hubidf.py | **1** | 0 | 0 | order-2 tf-idf + hub down-weight (statistik derajat korpus); tanpa learning label |
+
+**Pair-dependent (P=1): 10/15.** Non-pair-dependent (P=0): B1, B2, B3, B4, A1.
+
+**Konsekuensi (apa adanya, bukan narasi lama):** karena B5, B6, A2, A5, A6 (dan A3, A4,
+P2, P3) semuanya **pair-dependent**, klaim *"metode co-occurrence mengungguli metode
+non-co-occurrence"* **tidak bisa** dibangun dari pembanding-pembanding ini. Yang
+membedakan bukan "pakai co-occurrence atau tidak", melainkan **bagaimana** co-occurrence
+dimodelkan: eksplisit & tanpa parameter terlatih (P1/P3) vs dipelajari & terkompresi
+(B5/B6/A2) vs dipelajari-supervised (A3/A4/A5/A6/P2). Framing RQ3 diserahkan ke peneliti;
+tabel dilaporkan apa adanya.
+
+**Inkonsistensi lama diperbaiki:** A3 dulu diberi label "variant" sementara A6 "comparator"
+padahal keduanya P=1, L=1 (kelas mekanisme sama). Docstring A3 sudah di-de-bias. Kategori
+ditentukan tabel P/L/U ini (Tahap 7.5), bukan hasil.
+
+### Kebenaran implementasi (§3.2)
+
+| aspek | temuan |
+|---|---|
+| Sumber IDF | **340 produk saja** (`base._idf(PU)`, PU = matriks produk). Query ditransform dengan IDF produk. Konsisten untuk B2, P1, P3, A3(idf_b), A4(idf_b), A5. B3 BM25 memakai IDF internalnya atas korpus 340 produk. |
+| Normalisasi | L2 row-norm di `build_features` (PUt/QUt/PBt/QBt/PC/QC). A1 = distribusi (jumlah 1). B1 tanpa norm (Jaccard). B3 punya normalisasi BM25 sendiri. |
+| Hyperparameter | default modul (dicatat). **Di-tuning ulang di Tahap 8** pada data bersih; `best_params` lama tidak sah. |
+| Seed | stokastik (5 seed 0..4): A2, A3, A4, A5, A6, B5, B6, P2. Deterministik: B1, B2, B3, B4, A1, P1, P3. Sumber varian A3/A4/A6/P2 = shuffle fold saja. |
+| Out-of-fold | supervised A3/A4/A5/A6/P2 → `groupkfold_oof` / `grouped_folds` by query. Query tak pernah di train & test bersamaan. |
+| Skip diam-diam | B4 → NaN bila model gagal dimuat → `evaluate_method` menandai `skipped`, bukan 0. Terverifikasi. |
+| Determinisme | **15/15 deterministik** pada seed tetap (2× seed 0, `max|diff|=0`). Sumber: `01_determinism.csv`. **Gate G2 CLEAR.** |
+
+### Verifikasi terhadap paper asli (ringkas; audit penuh Tahap 12)
+
+| metode | parameter aktual | status sumber |
+|---|---|---|
+| B3_bm25 | `BM25Okapi` (rank_bm25) default k1=1.5, b=0.75; doc=produk, query=accord query; IDF dari 340 produk | Robertson & Zaragoza (PDF ada) |
+| B4_sbert | checkpoint `paraphrase-multilingual-MiniLM-L12-v2`, mean-pool, `normalize_embeddings=True`, **simetris accord-only** | Reimers & Gurevych (PDF ada) |
+| B5_word2vec | dim=64, window=5, epochs=50, min_count=1, sg=1, workers=1, seed | **SUMBER BELUM DIVERIFIKASI** (Mikolov PDF tak ada) |
+| B6_node2vec | dim=64, walk_length=20, num_walks=50, window=5, p=q=1 (default), bobot sisi = #co-occurrence, workers=1 | Grover & Leskovec (PDF ada) |
+| A2_ppmi_svd | PPMI (tanpa shift), dim=50, TruncatedSVD (randomized) | **SUMBER BELUM DIVERIFIKASI** (Levy & Goldberg PDF tak ada) |
+| A1_wheel | skeleton superfamily/subfamily Edwards-inspired; daun accord = karya penulis; bobot 1/2/3 | **EDWARDS BELUM DIVERIFIKASI** (leaf mapping bukan dari terbitan) |
+
+**Determinisme & determinasi seed dikonfirmasi. Gate G2 tidak aktif.**
+

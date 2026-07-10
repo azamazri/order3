@@ -1,14 +1,14 @@
-"""A3 -- Signature logistic (a VARIANT of the proposed method, not an independent baseline).
+"""A3 -- Signature logistic over shared accord-pair statistics.
 
 Per (query, product) we summarise the shared accord-pair "signature": how many rare
 edges are shared (IDF-weighted), the single rarest shared edge, asymmetric coverage,
 and Jaccard. Plain logistic regression (class_weight="balanced"), trained out-of-fold
 (GroupKFold-5 by query); it is logistic regression, NOT a learning-to-rank objective.
 
-NOTE (category): features n_shared_b, w_shared_b and max_rare are the order-2
-co-occurrence representation of the proposed method, so A3 = order-2 features + a
-learned re-weighting. It is reported as a proposed-method VARIANT (alongside P2/P3),
-not as one of the 12 comparators. See PEDOMAN_EKSPERIMEN.md Bagian 4/A3."""
+Mechanism: features n_shared_b, w_shared_b, max_rare are order-2 (accord-pair)
+quantities and the weights are learned from labels, so A3 is pair-dependent (P) and
+label-supervised (L) -- the same mechanism class as A6 (see 01_implementation_audit.md
+P/L/U table). Category is set by that table, not by results."""
 from __future__ import annotations
 
 import numpy as np

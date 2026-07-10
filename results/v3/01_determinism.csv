@@ -1,0 +1,16 @@
+method,stochastic,deterministic_at_fixed_seed,max_abs_diff
+B1_jaccard,False,True,0.000e+00
+B2_tfidf_cos,False,True,0.000e+00
+B3_bm25,False,True,0.000e+00
+B4_sbert,False,True,0.000e+00
+B5_word2vec,True,True,0.000e+00
+B6_node2vec,True,True,0.000e+00
+A1_wheel_treeW,False,True,0.000e+00
+A2_ppmi_svd,True,True,0.000e+00
+A3_signature,True,True,0.000e+00
+A4_bigram_salience,True,True,0.000e+00
+A5_bilinear,True,True,0.000e+00
+A6_gbm_fusion,True,True,0.000e+00
+P1_order2,False,True,0.000e+00
+P2_fusion,True,True,0.000e+00
+P3_hubidf,False,True,0.000e+00
