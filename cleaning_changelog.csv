@@ -1,0 +1,68 @@
+excel_row,product_name,before,action,after
+10,Red Glass,metalic,typo_fix,metallic
+20,Colate Sport,aldehydes,typo_fix,aldehydic
+33,Bright Cloud,woody fresh,split,"woody, fresh"
+33,Bright Cloud,fruity aromatic,split,"fruity, aromatic"
+34,Barbie,sweet fresh,split,"sweet, fresh"
+34,Barbie,citrus floral,split,"citrus, floral"
+36,Will You,citrus white floral,split,"citrus, white floral"
+36,Will You,fruity fresh,split,"fruity, fresh"
+43,Dreamland,haert: white floral warm spicy,split,"white floral, warm spicy"
+43,Dreamland,sweet fresh,split,"sweet, fresh"
+50,Vicaro,sweet woody,split,"sweet, woody"
+50,Vicaro,oriental,drop,
+51,Dusk musk,musky rose,split,"musky, rose"
+54,Last Season,powderry,typo_fix,powdery
+63,D Nova,wam spicy,typo_fix,warm spicy
+73,Darkness,oriental: vanilla,split,vanilla
+85,cinnabar,vanila,typo_fix,vanilla
+103,Blue Hills,warm,typo_fix,warm spicy
+106,Princess Charming,nuity,typo_fix,nutty
+108,D sava,fruity musky,split,"fruity, musky"
+108,D sava,vanilla tropical,split,"vanilla, tropical"
+109,Ocean Lounge,rose sweet,split,"rose, sweet"
+115,Moon AA,greeen,typo_fix,green
+122,Be Feminim,ozonoc,typo_fix,ozonic
+130,Ood Super,rose sweet,split,"rose, sweet"
+150,Artemis,pzonic,typo_fix,ozonic
+168,Longlive,freesh,typo_fix,fresh
+185,Monarca,aromatique,drop,
+196,Devine,oriental,drop,
+197,Pixie Petals,oriental,drop,
+199,Ebbio,coffe,typo_fix,coffee
+201,White Luxury,fuity,typo_fix,fruity
+210,Rose of The Vent,oriental,drop,
+213,Gempita,oriental,drop,
+214,Waka-Waka,woody white floral,split,"woody, white floral"
+218,given sea,sweet floral,split,"sweet, floral"
+219,Callisto,powderry,typo_fix,powdery
+221,Cartir,sweet vanilla,split,"sweet, vanilla"
+221,Cartir,amber powdery,split,"amber, powdery"
+222,Guci Gold,fruity vanilla rose,split,"fruity, vanilla, rose"
+223,Sis Leys,coffe,typo_fix,coffee
+224,Ice Americano,coffe,typo_fix,coffee
+225,Axcoffe,warm spicy chocolate,split,"warm spicy, chocolate"
+225,Axcoffe,vanilla cacao,split,"vanilla, cacao"
+227,Collector's Edition,vanilla woody,split,"vanilla, woody"
+227,Collector's Edition,powdery sweet,split,"powdery, sweet"
+229,Sweet Sunshine,sweet fresh,split,"sweet, fresh"
+232,Calypso,fruity iris,split,"fruity, iris"
+232,Calypso,vanilla powdery,split,"vanilla, powdery"
+233,Particless,aroomatic,typo_fix,aromatic
+235,Black Mirage,oriental,drop,
+236,Dalal,vanilla sweet,split,"vanilla, sweet"
+236,Dalal,citrus woody,split,"citrus, woody"
+239,Cassanova,floral fruity,split,"floral, fruity"
+239,Cassanova,citrus caramel,split,"citrus, caramel"
+241,Yiper,iris woody,split,"iris, woody"
+241,Yiper,bae: powdery musky,split,"powdery, musky"
+242,Heather Sweet,fruity rose,split,"fruity, rose"
+242,Heather Sweet,iris woody,split,"iris, woody"
+271,Blooming,white floral and tuberose,split,"white floral, tuberose"
+276,Choc Choco,vanilla coffe,split,"vanilla, coffee"
+276,Choc Choco,baae: warm spicy,split,warm spicy
+282,Ana Sweet,powderry,typo_fix,powdery
+284,Accadiantaly,fruity caramel,split,"fruity, caramel"
+284,Accadiantaly,warm spicy vanilla,split,"warm spicy, vanilla"
+318,Run Away,freahspicy,typo_fix,fresh spicy
+331,Pyramid,fresh spicy. citrus,split,"fresh spicy, citrus"
