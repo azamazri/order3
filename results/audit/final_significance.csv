@@ -1,0 +1,20 @@
+comparison,delta_mrr,ci_low,ci_high,wilcoxon_p
+order3 vs B1_jaccard,0.0803,0.0507,0.1109,6.946e-04
+order3 vs B2_tfidf_cos,0.0540,0.0292,0.0795,5.636e-09
+order3 vs B3_bm25,0.1161,0.0809,0.1530,2.210e-12
+order3 vs B4b_sbert_accord,0.1641,0.1097,0.2184,1.902e-08
+order3 vs B5_word2vec,0.1145,0.0712,0.1597,1.445e-06
+order3 vs B6_node2vec,0.1475,0.1027,0.1931,6.629e-09
+order3 vs A1_wheel_treeW,0.1503,0.1002,0.1997,4.584e-09
+order3 vs A2_ppmi_svd,0.0648,0.0218,0.1093,4.327e-04
+order3 vs A4_bigram_salience,0.2117,0.1578,0.2650,2.502e-12
+order3 vs A5_bilinear,0.2722,0.2219,0.3226,3.519e-19
+order3 vs A6_gbm_fusion,0.0308,0.0080,0.0542,1.408e-01
+order3 vs A3_signature_full,-0.0051,-0.0201,0.0090,8.908e-01
+order3 vs P2_fusion,0.0096,-0.0019,0.0231,6.560e-02
+order3 vs P3_hubidf,0.0604,0.0355,0.0859,1.098e-10
+order1 vs order2,-0.0424,-0.0665,-0.0194,8.677e-08
+order2 vs order3,-0.0116,-0.0229,-0.0024,2.780e-03
+order3 vs order4,-0.0025,-0.0097,0.0046,1.666e-02
+order4 vs order5,-0.0005,-0.0012,0.0000,5.338e-02
+order5 vs order6,0.0000,0.0000,0.0000,1.000e+00

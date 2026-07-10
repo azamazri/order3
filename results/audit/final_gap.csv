@@ -1,0 +1,9 @@
+method,mrr_train,mrr_test,gap,note
+A3_signature_full,0.5148,0.5131,0.0017,supervised (out-of-fold)
+A4_bigram_salience,0.4754,0.2963,0.1792,supervised (out-of-fold)
+A5_bilinear,0.5022,0.2358,0.2664,supervised (out-of-fold)
+A6_gbm_fusion,0.5810,0.4771,0.1039,supervised (out-of-fold)
+A2_ppmi_svd,,0.4431,,train==test by construction (label-free) -> cannot overfit
+B5_word2vec,,0.3934,,train==test by construction (label-free) -> cannot overfit
+B6_node2vec,,0.3605,,train==test by construction (label-free) -> cannot overfit
+B4b_sbert_accord,,0.3439,,"pretrained, no fit -> cannot overfit"

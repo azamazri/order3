@@ -1,0 +1,21 @@
+method,category,best_params,mrr,mrr_std,hits1,hits3
+B1_jaccard,comparator,parameter-free,0.4277,0.0000,0.3026,0.4867
+B2_tfidf_cos,comparator,parameter-free,0.4540,0.0000,0.3349,0.5072
+B3_bm25,comparator,"{'k1': 2.0, 'b': 0.75}",0.3919,0.0000,0.2823,0.4402
+B4b_sbert_accord,comparator,parameter-free,0.3439,0.0000,0.2297,0.3780
+B5_word2vec,comparator,"{'dim': 64, 'window': 5, 'epochs': 200}",0.3934,0.0118,0.2767,0.4498
+B6_node2vec,comparator,"{'dim': 32, 'p': 0.25, 'q': 4}",0.3605,0.0208,0.2480,0.4019
+A1_wheel_treeW,comparator,"{'w': (1, 1, 1)}",0.3577,0.0000,0.2402,0.3915
+A2_ppmi_svd,comparator,{'rank': 50},0.4431,0.0007,0.3421,0.4976
+A4_bigram_salience,comparator,{'C': 0.01},0.2963,0.0111,0.1840,0.3278
+A5_bilinear,comparator,"{'rank': 16, 'iters': 1000}",0.2358,0.0144,0.1308,0.2604
+A6_gbm_fusion,comparator,"{'n_estimators': 300, 'max_depth': 5, 'lr': 0.01}",0.4771,0.0072,0.3542,0.5509
+A3_signature_full,variant,{'C': 0.01},0.5131,0.0029,0.4067,0.5654
+P2_fusion,variant,fixed (C=1.0 logistic),0.4984,0.0021,0.3764,0.5814
+P3_hubidf,variant,parameter-free,0.4476,0.0000,0.3349,0.4905
+order1,proposed,parameter-free,0.4540,0.0000,0.3349,0.5072
+order2,proposed,parameter-free,0.4963,0.0000,0.3780,0.5622
+order3,proposed,parameter-free,0.5080,0.0000,0.3971,0.5670
+order4,proposed,parameter-free,0.5105,0.0000,0.3971,0.5826
+order5,proposed,parameter-free,0.5109,0.0000,0.3971,0.5826
+order6,proposed,parameter-free,0.5109,0.0000,0.3971,0.5826
