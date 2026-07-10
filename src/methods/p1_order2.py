@@ -1,4 +1,4 @@
-"""P1 -- Order-2 co-occurrence TF-IDF (PROPOSED core).
+r"""P1 -- Order-2 co-occurrence TF-IDF.
 
 Token set = accords UNION accord-pairs (unigram + bigram). IDF-weighted, jointly
 L2-normalised, cosine. The score decomposes additively into an order-1 (marginal)

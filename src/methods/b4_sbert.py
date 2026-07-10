@@ -1,13 +1,15 @@
-"""B4 -- Sentence-BERT cosine over free text.
+"""B4 -- Sentence-BERT cosine over the accord list (accord-only, symmetric).
 
-Product text  = leakage-stripped [meaning + olfactory_family]  (Indonesian).
-Query text    = [accords + global_family]                       (English).
-The leakage firewall (data.leakage_audit) has already removed any distinctive token
-of a product's own global name from `Product.text_clean`.
+Both sides are encoded from the SAME input every other method sees: the comma-joined
+accord list. Query text = ", ".join(A(q)); product text = ", ".join(A(p)). No free
+text, no olfactory/global family on either side. This is the only form that answers
+RQ3 on identical input: does a trained sentence encoder beat lexical weighting when
+both receive the same accord string? (The prose/family variants are ablations B4a/B4c
+in src/v3, not the main-table method.)
 
 Requires `sentence-transformers`. If the model cannot be loaded (e.g. no network for
-the first download) the method degrades gracefully and returns all-NaN, which the
-evaluator reports as "skipped" -- it is never silently faked.
+the first download) the method returns all-NaN, which the evaluator reports as
+"skipped" -- it is never silently faked.
 """
 from __future__ import annotations
 
@@ -16,7 +18,7 @@ import numpy as np
 from ..data import Dataset
 from .base import Features, Method
 
-# Multilingual model: product text is Indonesian, query text is English accords.
+# Multilingual checkpoint (accords are English tokens; kept for parity with ablations).
 _MODEL = "paraphrase-multilingual-MiniLM-L12-v2"
 
 
@@ -35,15 +37,8 @@ class B4SBert(Method):
             print(f"[B4] skipped: could not load '{self.model_name}' ({e}).")
             return np.full((len(ds.queries), ds.n_pool), np.nan)
 
-        # PRODUCT text = family + leakage-stripped meaning + accords-as-words.
-        # p.text_clean is the leakage-audited "meaning + family" (own global-name tokens
-        # already removed); we append the accord words so query/product share a space.
-        prod_text = [
-            (p.text_clean or p.family or " ") + " " + " ".join(p.accords)
-            for p in ds.products
-        ]
-        # QUERY text = global_family + accords-as-words. NEVER interpreted_as (= leakage).
-        q_text = [q.family + " " + " ".join(q.accords) for q in ds.queries]
+        prod_text = [", ".join(p.accords) for p in ds.products]
+        q_text = [", ".join(q.accords) for q in ds.queries]
 
         pe = model.encode(prod_text, normalize_embeddings=True, show_progress_bar=False)
         qe = model.encode(q_text, normalize_embeddings=True, show_progress_bar=False)

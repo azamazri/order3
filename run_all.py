@@ -18,8 +18,8 @@ from pathlib import Path
 
 import numpy as np
 
-from src.data import load_dataset, leakage_audit
-from src.evaluate import (accord_containment_report, bootstrap_delta_mrr,
+from src.data import load_dataset
+from src.evaluate import (bootstrap_delta_mrr,
                           evaluate_method, per_query_metrics, wilcoxon_rr)
 from src.methods import ALL_METHODS, FAST_METHODS
 from src.methods.base import build_features
@@ -46,9 +46,6 @@ def main():
     print(f"pool (products)   : {ds.n_pool}")
     print(f"labeled queries   : {len(ds.queries)}")
     print(f"shared accords    : {len(ds.shared_accords)}")
-    print("-" * 78)
-    leakage_audit(ds)
-    accord_containment_report(ds)
     print("-" * 78)
 
     feats = build_features(ds)

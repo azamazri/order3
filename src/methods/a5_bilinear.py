@@ -3,8 +3,8 @@
 Score(q, p) = q^T (diag(d) + L L^T) p, with q, p the L2-normalised unigram TF-IDF
 vectors over the shared accord space. Parameters d (V,) and L (V x r) are learned by
 minimising a class-balanced logistic loss with full-batch gradient descent (Adam-free,
-plain GD with L2 reg). Trained out-of-fold (GroupKFold-5 by query). Expected to be
-weak: the cross-accord metric overfits on sparse labels."""
+plain GD with L2 reg). Trained out-of-fold (GroupKFold-5 by query). The L L^T term is a
+learned low-rank cross-accord affinity."""
 from __future__ import annotations
 
 import numpy as np
