@@ -1,0 +1,39 @@
+product,query,missing_accords,n_missing,alt_query_contained,has_alt,missing_closeness,all_missing_have_close,class
+Lugsary,1 Million Lucky — Rabanne,floral,1,,0,floral->honey(0.65),1,soft_matchable
+Zero Two,212 VIP Men Carolina Herrera,amber,1,1 Million Lucky — Rabanne;1 Million — Rabanne;Aigner Black for Men — Etienne Aigner,1,amber->vodka(1.67),1,likely_mislink
+Spookie,5th Avenue — Elizabeth Arden,woody,1,724 — Maison Francis Kurkdjian;Black Opium Illicit Green — Yves Saint Laurent;Fantasia Mermaid — Anna Sui,1,woody->NONE,0,likely_mislink
+Forest Night,Ameer Al Oudh Intense Oud Lattafa Perfumes,fruity;musky;fresh,3,Back to Pink — Victoria’s Secret;English Pear & Freesia Jo Malone London;Euphoria Blossom Calvin Klein,1,fruity->sweet(0.48);musky->powdery(0.47);fresh->NONE,0,likely_mislink
+Gempita,Aqua Universalis — Maison Francis Kurkdjian,fruity;sweet;woody,3,1 Million Lucky — Rabanne;Amor Amor — Cacharel;B. United Woman Benetton,1,fruity->fresh(0.46);sweet->NONE;woody->NONE,0,likely_mislink
+Red Glass,Baccarat Rouge 540 Extrait de Parfum by Maison Francis Kurkdjian,fresh spicy,1,Baccarat Rouge 540 — Maison Francis Kurkdjian;Instant Crush — Mancera,1,fresh spicy->metallic(1.43),1,likely_mislink
+Sweet Vanilla,Bare Vanilla — Victoria’s Secret,fruity;lactonic,2,,0,fruity->sweet(0.48);lactonic->sweet(1.11),1,soft_matchable
+Iron Man,Burberry Sport for Men — Burberry,warm spicy,1,Black XS L’Exces for Him — Rabanne,1,warm spicy->NONE,0,likely_mislink
+Samericek,Burberry Summer — Burberry,woody;citrus;white floral,3,DKNY Be Delicious — Donna Karan;Miu Miu — Miu Miu;Omnia Green Jade Bvlgari,1,woody->NONE;citrus->NONE;white floral->fresh(0.68),0,likely_mislink
+Rosella,Bvlgari Rose Essentielle Eau De Toilette Rosee,violet;woody,2,,0,violet->powdery(1.23);woody->NONE,0,genuinely_far
+Expose,Cerruti 1881 Black — Cerruti,fresh,1,Legend by Montblanc,1,fresh->NONE,0,likely_mislink
+Esava-X,CH Men Prive — Carolina Herrera,white floral;sweet,2,,0,white floral->NONE;sweet->NONE,0,genuinely_far
+Soxy,Clinique Happy — Clinique,vanilla;ozonic;musky;aquatic;powdery,5,,0,vanilla->NONE;ozonic->green(0.89);musky->NONE;aquatic->NONE;powdery->NONE,0,genuinely_far
+Floral Noir,Dans la Peau Louis Vuitton for women,musky,1,,0,musky->powdery(0.47),1,soft_matchable
+Cartir,DKNY Be Delicious — Donna Karan,cherry;sweet;vanilla;amber;powdery,5,,0,cherry->NONE;sweet->NONE;vanilla->NONE;amber->NONE;powdery->NONE,0,genuinely_far
+Pyramid,Dunhill London — Alfred Dunhill,citrus,1,212 VIP Men Carolina Herrera;Bleu de Chanel — Chanel;Boss In Motion — Hugo Boss,1,citrus->fresh spicy(0.33),1,likely_mislink
+Dorsava,Elixir — Aurora Scents,fresh spicy;lavender,2,CR7 Cristiano Ronaldo;Individuel Montblanc for men;Sauvage Dior for men,1,fresh spicy->aromatic(0.86);lavender->aromatic(0.99),1,likely_mislink
+Patchouli Petals,Elle by Yves Saint Laurent,marine;amber;aquatic,3,,0,marine->aromatic(1.26);amber->NONE;aquatic->fresh(0.45),0,genuinely_far
+Unicorn Lady,Gardenia — Zara,fruity;lactonic;patchouli,3,,0,fruity->sweet(0.48);lactonic->sweet(1.11);patchouli->NONE,0,genuinely_far
+Artemis,Green Irish Tweed Creed,citrus,1,,0,citrus->NONE,0,genuinely_far
+Heather Sweet,La Vie Est Belle — Lancôme,rose,1,,0,rose->NONE,0,genuinely_far
+Tow Combination,Le Jour se Lève Louis Vuitton,white floral;fresh,2,5th Avenue by Elizabeth Arden;5th Avenue — Elizabeth Arden;DKNY Be Delicious Donna Karan for women,1,white floral->NONE;fresh->floral(0.74),0,likely_mislink
+Ruby Red,Noir Tom Ford,citrus;white floral,2,Secret Wish Magic Romance — Anna Sui,1,citrus->fresh spicy(0.33);white floral->NONE,0,likely_mislink
+Collector's Edition,Oriental — Zara,woody,1,Amber Fever — Mancera;Dalal — Al Rehab / ALREHAB Perfumes;Escada Magnetism — Escada,1,woody->NONE,0,likely_mislink
+Musk Oud,Oud & Musc Cartier,ozonic;aquatic;citrus;green;warm spicy,5,,0,ozonic->NONE;aquatic->NONE;citrus->fresh spicy(0.33);green->NONE;warm spicy->NONE,0,genuinely_far
+Golden Dust,Phantom — Rabanne,warm spicy,1,Black XS L’Exces for Him — Rabanne;CH Men Prive — Carolina Herrera;Sauvage Dior for men,1,warm spicy->NONE,0,likely_mislink
+Born to Shine,Popcorn — Demeter Fragrance,sweet;honey,2,,0,sweet->lactonic(1.11);honey->lactonic(2.47),1,soft_matchable
+Candy Night,Prada Candy — Prada,chocolate,1,,0,chocolate->vanilla(1.41),1,soft_matchable
+CR Seven,The Island — Voyage à Rodrigues,floral;vanilla;tropical;coconut;fruity,5,,0,floral->fresh(0.74);vanilla->NONE;tropical->NONE;coconut->NONE;fruity->fresh(0.46),0,genuinely_far
+Twicy,Twilly d’Hermès — Hermès,warm spicy,1,,0,warm spicy->NONE,0,genuinely_far
+Haleef,Un Jardin Sur Le Nil — Hermès,woody;fresh;nutty,3,Omnia Green Jade Bvlgari,1,woody->NONE;fresh->floral(0.74);nutty->sweet(0.60),0,likely_mislink
+Choc Choco,Vanilla Latte — So...?,nutty,1,,0,nutty->coffee(2.44),1,soft_matchable
+Senyasen,Vibrant Leather Eau de Parfum — Zara,patchouli,1,,0,patchouli->NONE,0,genuinely_far
+Shine Review,Vibrant Leather Eau de Parfum — Zara,amber;oud,2,,0,amber->NONE;oud->NONE,0,genuinely_far
+Haystack,Wanted Eau de Parfum Azzaro,warm spicy,1,CR7 Cristiano Ronaldo;Jaguar For Men Jaguar;Sauvage Dior for men,1,warm spicy->NONE,0,likely_mislink
+Satnight,Weekend for Men — Burberry,floral;powdery;woody,3,B. United Woman Benetton;Escada Magnetism — Escada;Euphoria Blossom Calvin Klein,1,floral->fresh(0.74);powdery->NONE;woody->NONE,0,likely_mislink
+Days Girl,Wild Bluebell — Jo Malone London,floral;white floral;fresh spicy,3,,0,floral->NONE;white floral->NONE;fresh spicy->NONE,0,genuinely_far
+D sava,Zara Black Amber Zara,musky,1,,0,musky->powdery(0.47),1,soft_matchable
