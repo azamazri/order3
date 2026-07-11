@@ -1,0 +1,4 @@
+method,eval,MRR,Hits@1,Hits@3,n_test,MRR_prefix,MRR_subseq,MRR_contained,MRR_partial,n_prefix,n_subseq,n_contained,n_partial
+P1_order2,test,0.5823,0.4578,0.6506,83,0.6283,0.6042,0.7921,0.0634,35,4,29,15
+P2_fusion,test,0.5866,0.4699,0.6506,83,0.6269,0.6042,0.8071,0.0619,35,4,29,15
+A3_signature,test,0.5639,0.4434,0.6313,83,0.6293,0.5868,0.7455,0.0542,35,4,29,15
