@@ -1,0 +1,7 @@
+population,order,share,n_pairs
+true,1,0.2180,206
+true,2,0.7820,206
+top1,1,0.1845,208
+top1,2,0.8155,208
+random,1,0.5758,3578
+random,2,0.4242,3578
