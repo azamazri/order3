@@ -1,0 +1,13 @@
+ablation,variant,eval_set,MRR,MRR_std
+A3_ablation,A3_full,ALL,0.5538,0.0027
+A3_ablation,A3_full,NON_OP,0.4913,0.0047
+A3_ablation,A3_no_bigram,ALL,0.3547,0.0020
+A3_ablation,A3_no_bigram,NON_OP,0.3170,0.0044
+A3_ablation,A3_only_bigram,ALL,0.5357,0.0013
+A3_ablation,A3_only_bigram,NON_OP,0.4710,0.0007
+B4_symmetry,B4a_prose,ALL,0.0557,
+B4_symmetry,B4a_prose,NON_OP,0.0419,
+B4_symmetry,B4b_accord,ALL,0.5510,
+B4_symmetry,B4b_accord,NON_OP,0.4137,
+B4_symmetry,B4c_family_accord,ALL,0.4348,
+B4_symmetry,B4c_family_accord,NON_OP,0.3618,
