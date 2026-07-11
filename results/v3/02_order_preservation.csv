@@ -1,0 +1,211 @@
+p_idx,product,q_idx,query,len_Ap,len_Aq,contained,subseq,prefix
+327,Lugsary,0,1 Million Lucky — Rabanne,9,9,0,0,0
+288,Superclass Man,1,1 Million — Rabanne,5,10,1,1,1
+85,Zero Two,2,212 VIP Men Carolina Herrera,2,10,0,0,0
+60,Five Years,3,5th Avenue by Elizabeth Arden,5,8,1,0,0
+247,Spookie,4,5th Avenue — Elizabeth Arden,5,8,0,0,0
+243,Jongleuse,5,724 — Maison Francis Kurkdjian,5,10,1,0,0
+308,Solitary Man,6,Aigner Black for Men — Etienne Aigner,5,10,1,0,0
+7,Black Lax,7,Alexandria II by xerjoff,5,10,1,1,0
+238,Milazombie,8,Amber Fever — Mancera,5,10,1,1,1
+184,Forest Night,9,Ameer Al Oudh Intense Oud Lattafa Perfumes,5,5,0,0,0
+215,Glitter Glam,10,Amor Amor — Cacharel,5,10,1,0,0
+289,-,11,Angels’ Share — By Kilian,5,7,1,1,0
+325,Conoir,12,Antonio — Antonio Banderas,5,10,1,1,1
+83,cinnabar,13,Aoud Lemon Mint Mancera,5,10,1,0,0
+191,Bidden Rose,14,Aoud Vanille Mancera,5,9,1,0,0
+252,High Lily,15,Aqua Lily 2008 — The Body Shop,5,10,1,1,1
+28,Authentic Discovery,16,Aqua Universalis by Maison Francis Kurkdjian,5,5,1,1,1
+211,Gempita,17,Aqua Universalis — Maison Francis Kurkdjian,4,5,0,0,0
+217,Callisto,18,Aura Loewe Floral — Loewe,5,10,1,1,1
+266,Scarlett Heels,19,Aura — Swarovski,5,10,1,0,0
+133,Fit Woman,20,B. United Woman Benetton,5,10,1,1,1
+8,Red Glass,21,Baccarat Rouge 540 Extrait de Parfum by Maison Francis Kurkdjian,5,10,0,0,0
+213,Mirage Moon,22,Baccarat Rouge 540 Extrait de Parfum — Maison Francis Kurkdjian,5,10,1,0,0
+233,Black Mirage,23,Baccarat Rouge 540 — Maison Francis Kurkdjian,4,9,1,0,0
+237,Cassanova,24,Back to Pink — Victoria’s Secret,5,9,1,1,1
+0,Berrylicious,25,Bad Boy Extreme By Carolina Herrera,5,10,1,0,0
+144,Boomtown,26,Bad Boy Le Parfum Carolina Herrera,5,10,1,1,1
+273,Sweet Vanilla,27,Bare Vanilla — Victoria’s Secret,5,6,0,0,0
+160,Sweaty Man,28,Black Bvlgari,5,9,1,0,0
+222,Ice Americano,29,Black Coffee — Odetu,5,10,1,0,0
+224,Black Cocain,30,Black Opium Illicit Green — Yves Saint Laurent,5,10,1,1,1
+283,Red Sunset,31,Black Opium — Yves Saint Laurent,5,10,1,1,1
+161,Secret Code,32,Black Saffron Byredo,6,10,1,1,1
+165,silk safron,32,Black Saffron Byredo,5,10,1,1,1
+290,Sexy Killer,33,Black XS for Her — Rabanne,5,10,1,0,0
+302,Exits,34,Black XS L’Exces for Him — Rabanne,5,10,1,0,0
+324,Groove Large,35,Bleu de Chanel — Chanel,5,10,1,0,0
+16,Bosi Bottle,36,Boss Bottled Night by Hugo Boss,5,10,1,1,1
+11,Solstice,37,Boss Bottled United by Hugo Boss,5,10,1,1,1
+307,Floresta,38,Boss In Motion — Hugo Boss,5,10,1,0,0
+317,Iron Man,39,Burberry Sport for Men — Burberry,5,7,0,0,0
+232,Samericek,40,Burberry Summer — Burberry,5,9,0,0,0
+112,Zimba,41,Burberry Women Burberry,5,6,1,1,1
+338,M Too Man,42,Bvlgari Man — Bvlgari,5,10,1,0,0
+315,Black Square,43,Bvlgari Pour Homme Soir — Bvlgari,5,8,1,1,1
+314,Sweet Home,44,Bvlgari Pour Homme — Bvlgari,5,10,1,0,0
+196,Rosella,45,Bvlgari Rose Essentielle Eau De Toilette Rosee,5,8,0,0,0
+287,Expose,46,Cerruti 1881 Black — Cerruti,5,8,0,0,0
+174,Badge,47,CH Insignia Carolina Herrera for women,5,10,1,0,0
+318,Excelsior,48,CH Men Hot! Hot! Hot! — Carolina Herrera,5,10,1,0,0
+332,Esava-X,49,CH Men Prive — Carolina Herrera,5,10,0,0,0
+265,Durant,50,Chic — Carolina Herrera,5,8,1,0,0
+203,Full Of Passion,51,Chloé Roses de Chloé,5,7,1,1,1
+281,Nowadays Man,52,Chocolate Greedy — Montale,5,8,1,1,1
+319,Be Mine,53,CK be — Calvin Klein,5,10,1,1,0
+235,Soxy,54,Clinique Happy — Clinique,5,6,0,0,0
+311,Rafi Ahmad Touch Rafatar,55,Coco Eau de Parfum — Chanel,5,10,1,1,1
+39,Blue Crocodile,56,Cool Play by Lacoste Fragrances,5,10,1,1,1
+170,CR 7,57,CR7 Cristiano Ronaldo,5,10,1,0,0
+19,Vandora,58,Cœur Battant by Louis Vuitton,5,9,1,0,0
+234,Dalal,59,Dalal — Al Rehab / ALREHAB Perfumes,5,8,1,1,1
+157,Floral Noir,60,Dans la Peau Louis Vuitton for women,5,10,0,0,0
+223,Axcoffe,61,Dark Temptation — AXE,5,10,1,0,0
+186,Oud Noir,62,Divine Oud Roberto Cavalli,5,7,1,1,1
+146,Be Del Woman,63,DKNY Be Delicious Donna Karan for women,5,9,1,1,1
+219,Cartir,64,DKNY Be Delicious — Donna Karan,5,10,0,0,0
+32,Barbie,65,Dolly Girl by Anna Sui,5,10,1,0,0
+149,Dark Green,66,Drakkar Noir Guy Laroche,5,8,1,1,1
+321,Black Snow,67,Dunhill Black — Alfred Dunhill,5,9,1,0,0
+17,Fuck Boy,68,Dunhill Desire Blue by Alfred Dunhill,5,10,1,1,1
+329,Pyramid,69,Dunhill London — Alfred Dunhill,5,10,0,0,0
+158,lost in space,70,Eau Parfumee au The Noir Bvlgari,5,10,1,1,1
+142,Omniscient,71,EGE / ΑΙΓΑΙΟ Nishane,5,9,1,1,1
+4,Fancy Dress,72,Elie Saab Elixir for woman,5,7,1,0,0
+326,Dorsava,73,Elixir — Aurora Scents,5,10,0,0,0
+15,Patchouli Petals,74,Elle by Yves Saint Laurent,5,10,0,0,0
+292,Elvishore,75,Elysium Pour Homme Parfum Cologne — Roja Dove,5,9,1,1,0
+66,Bosa Nova,76,English Pear & Freesia Jo Malone London,5,10,1,0,0
+330,Guardino,77,Envy Me — Gucci,5,10,1,1,1
+231,Particless,78,Escada Magnetism — Escada,5,10,1,0,0
+236,She Walf,79,Escada Moon Sparkle — Escada,3,5,1,1,1
+316,Run Away,80,Escape for Men — Calvin Klein,5,10,1,1,1
+14,Black Ball,81,Essential Sport by Lacoste Fragrances,5,6,1,0,0
+249,Green Eternity,82,Eternity for Men Eau de Parfum — Calvin Klein,5,9,1,1,1
+207,Valesca,83,Euphoria Blossom Calvin Klein,5,9,1,1,0
+216,given sea,84,Fantasia Mermaid — Anna Sui,5,10,1,0,0
+239,Yiper,85,Fantasy The Naughty Remix — Britney Spears,5,8,1,1,1
+268,Hughes,86,Femme — Hugo Boss,5,7,1,1,1
+92,Jeep Shine,87,Ferrari Black Ferrari for men,5,10,1,0,0
+300,Jeep Black,88,Ferrari Black — Ferrari,5,10,1,0,0
+70,FOF,89,Flight Of Fancy Anna Sui,3,6,1,0,0
+67,Victory,90,Flora by Gucci Eau de Parfum,5,8,1,1,1
+69,Woman In Red,91,Flower by Kenzo,5,10,1,1,1
+250,Unicorn Lady,92,Gardenia — Zara,5,7,0,0,0
+168,Classy Bless,93,Gentleman Eau de Parfum Givenchy,5,10,1,0,0
+68,White Sense,94,Ginza Murasaki Shiseido,8,9,1,1,0
+256,Glowing Face,95,Glow — Jennifer Lopez,5,7,1,1,1
+9,Classic Vintage,96,Gold immortals by ex nihilo,5,10,1,0,0
+3,Spicy Day,97,Gold Incense by Carolina Herrera Confidential,5,10,1,0,0
+148,Artemis,98,Green Irish Tweed Creed,5,10,0,0,0
+152,Fresh Matcha,99,Green Tea Elizabeth Arden,5,5,1,1,1
+269,Blooming,100,Gucci Bloom — Gucci,2,5,1,1,1
+59,My Crush,101,Gucci Rush 2 by Gucci,5,10,1,1,1
+64,Woman In Love Never Cross,102,Guess for Women Guess,5,7,1,1,1
+63,Sombrero,103,Guess Girl Summer Guess for women,5,6,1,1,1
+260,Gravy Glam,104,Guess Seductive — Guess,5,10,1,1,1
+298,Spices Fragrance,105,Gypsy Water — Byredo,5,9,1,1,1
+328,Festive Love,106,Herod — Parfums de Marly,5,10,1,1,0
+194,Devine,107,Hipster Oud Zara,4,10,1,0,0
+253,Endless Love,108,Hugo XX — Hugo Boss,5,10,1,1,1
+12,Our First Love,109,Hugo XY by Hugo Boss,5,8,1,1,1
+227,Sweet Sunshine,110,Incanto Shine — Salvatore Ferragamo,4,7,1,1,0
+78,Foreo Ice,111,Individuel Montblanc for men,5,10,1,1,1
+156,Passion Art,112,Insolence Eau de Parfum Guerlain,5,9,1,0,0
+226,Rose of The Sea,113,Instant Crush — Mancera,5,10,1,0,0
+197,Ebbio,114,Intense Cafe Montale,5,9,1,1,1
+141,In The Groove,115,Jaguar For Men Jaguar,5,10,1,0,0
+48,Vicaro,116,Jaguar Vision by Jaguar,3,10,1,1,1
+10,Aquazone,117,Jorge di Profondo by Maison Alhambra,5,9,1,0,0
+127,eramusk,118,Kirkè Tiziana Terenzi,5,7,1,1,1
+1,Verve Vale,119,L'Immensité by Louis Vuitton,5,8,1,0,0
+282,Accadiantaly,120,La Nuit Trésor — Lancôme,5,10,1,0,0
+240,Heather Sweet,121,La Vie Est Belle — Lancôme,5,10,0,0,0
+163,Fast and Furious,122,Lacoste Pour Femme Légère Lacoste Fragrances,5,7,1,1,1
+6,Superclass Woman,123,Lady Million by Rabanne,5,9,1,1,1
+277,Delight Blue,124,Lady Million Fabulous — Rabanne,5,9,1,1,1
+99,Tow Combination,125,Le Jour se Lève Louis Vuitton,5,5,0,0,0
+257,Baorela,126,Le Parfum in White — Elie Saab,5,10,1,0,0
+36,Maxima Gold,127,Legend by Montblanc,5,10,1,0,0
+193,Groovy Glam,128,Les Sables Roses Louis Vuitton,5,10,1,0,0
+313,English M,129,London for Men — Burberry,5,10,1,0,0
+79,Silk Blossom,130,London Playboy for men,5,10,1,1,1
+254,Just A Girl,131,L’eau d’Issey — Issey Miyake,5,6,1,1,1
+291,Dwelling,132,L’Homme — Yves Saint Laurent,5,9,1,0,0
+95,Mellifluous,133,Magnificently Dubai Zara,5,7,1,0,0
+258,moonlit meadow,134,Marfa — Memo Paris,5,10,1,0,0
+62,How Deep,135,Miracle Lancôme for women,5,8,1,1,1
+198,Scent Vintage,136,Miss Dior Blooming Bouquet Dior,5,8,1,1,1
+200,Bright Sunshine,137,Miss Dior Rose N’Roses Dior,5,7,1,1,0
+246,Nozomi,138,Miu Miu — Miu Miu,5,9,1,1,1
+77,Dark Ages,139,Mr. Burberry Burberry for men,5,9,1,1,1
+284,Sauvage Classy,140,My Way — Giorgio Armani,5,5,1,1,1
+140,Eternal Sunset,141,Nautica Voyage Nautica for men,5,8,1,1,1
+303,Savile Row,142,Noir Anthracite — Tom Ford,5,7,1,0,0
+26,Golden Secret,143,Noir by Tom Ford,6,10,1,1,1
+202,Ruby Red,144,Noir Tom Ford,4,10,0,0,0
+305,Na Or Ya,145,Nomade — Chloé,5,10,1,1,1
+179,Ombredesire,146,Nouveau Monde Louis Vuitton,5,10,1,0,0
+131,Champion Man,147,N°1 de Chanel L’Eau Rouge Chanel,5,10,1,1,1
+195,Pixie Petals,148,Olympéa Flora Rabanne / Paco Rabanne,4,10,1,1,1
+285,Tokyo 2020,149,Olympéa — Rabanne,5,10,1,1,1
+159,Black Ford,150,Ombré Leather (2018) Tom Ford,5,9,1,0,0
+150,Forest,151,Omnia Green Jade Bvlgari,5,10,1,1,1
+225,Collector's Edition,152,Oriental — Zara,5,10,0,0,0
+183,Monarca,153,Oud & Bergamot Jo Malone London,4,5,1,0,0
+187,Musk Oud,154,Oud & Musc Cartier,5,5,0,0,0
+132,Silky Pink,155,Oud Silk Mood Maison Francis Kurkdjian,5,9,1,1,0
+180,Oudhi,156,Oud Wood Tom Ford,5,10,1,1,1
+2,Secret of Bandit,157,Penhaligon's Terrible Teddy,5,7,1,1,1
+333,Golden Dust,158,Phantom — Rabanne,5,10,0,0,0
+147,Road Spice,159,Philosykos Eau de Toilette Diptyque,5,6,1,1,1
+323,Timber,160,Pitbull Man — Pitbull,5,10,1,1,1
+263,Lovin You,161,Pleasures — Estée Lauder,5,8,1,1,1
+155,Man in Green,162,Polo Ralph Lauren / Polo Green,5,10,1,0,0
+229,Born to Shine,163,Popcorn — Demeter Fragrance,5,3,0,0,0
+214,Candy Night,164,Prada Candy — Prada,5,8,0,0,0
+121,Popular,165,Romantic Victoria’s Secret,5,5,1,0,0
+206,Green Steam,166,Rose des Vents Louis Vuitton,5,10,1,0,0
+204,Charmile,167,Rose Noir Byredo,5,9,1,0,0
+201,Truly,168,Roses Musk Montale,3,5,1,0,0
+209,Seven San,169,Roses Vanille Mancera,5,8,1,0,0
+205,Marveiles,170,Rouge Hermès Hermès,5,10,1,1,1
+212,Waka-Waka,171,S by Shakira — Shakira,5,7,1,1,1
+90,Vagabond,172,Sauvage Dior for men,5,9,1,1,1
+5,Moz Art,173,Scandal Pour Homme by Jean Paul Gaultier,5,8,1,0,0
+267,The Master,174,Secret Wish Magic Romance — Anna Sui,5,10,1,0,0
+309,Fornine,175,Seduction in Black — Antonio Banderas,5,10,1,1,1
+270,Insider,176,Sergio Tacchini Donna — Sergio Tacchini,5,9,1,1,1
+299,Glamour Glam,177,Signorina — Salvatore Ferragamo,5,8,1,1,1
+210,Celindion Sensation,178,Spell On You Louis Vuitton,5,9,1,0,0
+255,Flower Mag,179,Splendida Magnolia Sensuel — Bvlgari,5,8,1,1,1
+280,Ana Sweet,180,Sui Dreams — Anna Sui,5,10,1,1,1
+218,Goo Squid,181,Sì — Giorgio Armani,5,10,1,1,1
+230,Calypso,182,Tease Candy Noir — Victoria’s Secret,5,9,1,1,1
+153,Gracias Garden,183,Terre d’Hermès Hermès for men,5,6,1,1,1
+220,Guci Gold,184,"Thank U, Next — Ariana Grande",5,6,1,1,1
+275,CR Seven,185,The Island — Voyage à Rodrigues,5,9,0,0,0
+151,Mighty,186,The Matcha 26 Le Labo,3,8,1,0,0
+339,Dhuga Light,187,Tobacco Oud — Tom Ford,5,10,1,0,0
+335,tobacco,188,Tobacco Vanille — Tom Ford,5,8,1,1,1
+251,Twicy,189,Twilly d’Hermès — Hermès,5,9,0,0,0
+331,Haleef,190,Un Jardin Sur Le Nil — Hermès,5,10,0,0,0
+279,Sauve Kiss,191,Vanilla Lace — Victoria’s Secret,4,5,1,1,1
+274,Choc Choco,192,Vanilla Latte — So...?,5,10,0,0,0
+278,Ice Cream,193,Vanilla Sundae Victoria's Secret,4,5,1,0,0
+276,Mady Girl,194,Vanilla — The Body Shop,2,9,1,1,1
+297,You So Lovely,195,Velvet Fantasy — Montale,5,10,1,0,0
+199,White Luxury,196,Versace Pour Femme Dylan Purple,5,10,1,1,0
+306,Senyasen,197,Vibrant Leather Eau de Parfum — Zara,5,6,0,0,0
+320,Shine Review,197,Vibrant Leather Eau de Parfum — Zara,5,6,0,0,0
+286,One Sixty,198,VIP Black Red — Carolina Herrera,5,10,1,0,0
+13,Pentavenue,199,Vodka on the Rocks by Kilian,5,10,1,0,0
+154,Haystack,200,Wanted Eau de Parfum Azzaro,4,10,0,0,0
+337,Satnight,201,Weekend for Men — Burberry,5,7,0,0,0
+171,Blue Black,202,White Musk The Body Shop,5,8,1,0,0
+245,Days Girl,203,Wild Bluebell — Jo Malone London,5,7,0,0,0
+164,Fiori Leys,204,Wild Leather Mancera,5,10,1,1,1
+228,Queen Flowers,205,Wild Rose — Avril Lavigne,5,8,1,1,1
+72,Bamboo Cici,206,Y Eau de Parfum Yves Saint Laurent for men,5,10,1,0,0
+106,D sava,207,Zara Black Amber Zara,5,10,0,0,0
