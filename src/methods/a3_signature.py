@@ -16,7 +16,7 @@ from scipy import sparse
 
 from ..data import Dataset
 from .base import Features, Method, groupkfold_oof
-from .p2_fusion import _logreg_fit_predict
+from .p2_fusion import _make_logreg_fit_predict
 
 
 def _features(feats: Features, qi: int) -> np.ndarray:
@@ -55,6 +55,9 @@ class A3Signature(Method):
     tier = "T2 structure"
     stochastic = True
 
+    def __init__(self, C: float = 1.0):
+        self.C = C
+
     def scores(self, ds: Dataset, feats: Features, seed: int = 0) -> np.ndarray:
         return groupkfold_oof(ds, lambda qi: _features(feats, qi),
-                              _logreg_fit_predict, seed=seed)
+                              _make_logreg_fit_predict(self.C), seed=seed)

@@ -1,0 +1,6 @@
+method,MRR_in_sample,MRR_oof,gap
+A5_bilinear,0.4113,0.2922,0.1191
+A6_gbm_fusion,0.4804,0.4608,0.0196
+A3_signature,0.5569,0.5546,0.0023
+A4_bigram_salience,0.5583,0.2225,0.3358
+P2_fusion,0.5675,0.5673,0.0002

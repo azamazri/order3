@@ -20,13 +20,15 @@ def _features(feats: Features, qi: int) -> sparse.csr_matrix:
     return (shared > 0).astype(float).tocsr()        # (n_pool, B)
 
 
-def _l2logreg_fit_predict(Xtr, ytr, Xte, seed):
-    from sklearn.linear_model import LogisticRegression
-    clf = LogisticRegression(C=1.0, max_iter=2000,
-                             class_weight="balanced", solver="liblinear",
-                             random_state=seed)
-    clf.fit(Xtr, ytr)
-    return clf.predict_proba(Xte)[:, 1]
+def _make_l2logreg_fit_predict(C=1.0):
+    def _fp(Xtr, ytr, Xte, seed):
+        from sklearn.linear_model import LogisticRegression
+        clf = LogisticRegression(C=C, max_iter=2000,
+                                 class_weight="balanced", solver="liblinear",
+                                 random_state=seed)
+        clf.fit(Xtr, ytr)
+        return clf.predict_proba(Xte)[:, 1]
+    return _fp
 
 
 class A4BigramSalience(Method):
@@ -34,7 +36,10 @@ class A4BigramSalience(Method):
     tier = "T2 structure"
     stochastic = True
 
+    def __init__(self, C: float = 1.0):
+        self.C = C
+
     def scores(self, ds: Dataset, feats: Features, seed: int = 0) -> np.ndarray:
         return groupkfold_oof(ds, lambda qi: _features(feats, qi),
-                              _l2logreg_fit_predict, seed=seed,
+                              _make_l2logreg_fit_predict(self.C), seed=seed,
                               sparse_feats=True)

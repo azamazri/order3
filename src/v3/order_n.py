@@ -30,29 +30,42 @@ def _subsets(accords, N):
             yield c
 
 
-def build_order_features(ds: Dataset, N: int):
-    """Return (Pmat, Qmat, meta). Pmat/Qmat: l2-normalised idf tf matrices (sparse),
-    idf from the 340 products only. meta has vocab, idf, and per-order column ranges."""
-    # ---- df over products; build vocab from products+queries ----
-    df: Dict[Tuple[str, ...], int] = {}
-    prod_subsets: List[List[Tuple[str, ...]]] = []
-    for p in ds.products:
-        subs = list(_subsets(p.accords, N))
-        prod_subsets.append(subs)
-        for t in subs:
-            df[t] = df.get(t, 0) + 1
+def build_order_features(ds: Dataset, N: int, idf_pool: str = "products"):
+    """Return (Pmat, Qmat, meta). Pmat/Qmat: l2-normalised idf tf matrices (sparse).
+
+    idf_pool='products' (default, §6.1): df_t over the 340 products, n = n_pool.
+    idf_pool='products_query' (S4): df_t over products+queries, n = n_pool + n_q.
+    """
+    # ---- product subsets ----
+    prod_subsets: List[List[Tuple[str, ...]]] = [list(_subsets(p.accords, N))
+                                                 for p in ds.products]
     query_subsets: List[List[Tuple[str, ...]]] = [list(_subsets(q.accords, N))
                                                   for q in ds.queries]
-    # vocab = union (products already in df; add query-only)
-    vocab_set = set(df.keys())
+    # ---- df counts per idf_pool ----
+    df: Dict[Tuple[str, ...], int] = {}
+    if idf_pool == "products":
+        docs = prod_subsets
+        n_docs = ds.n_pool
+    elif idf_pool == "products_query":
+        docs = prod_subsets + query_subsets
+        n_docs = ds.n_pool + len(ds.queries)
+    else:
+        raise ValueError(idf_pool)
+    for subs in docs:
+        for t in subs:
+            df[t] = df.get(t, 0) + 1
+
+    # vocab = union products+queries
+    vocab_set = set()
+    for subs in prod_subsets:
+        vocab_set.update(subs)
     for subs in query_subsets:
         vocab_set.update(subs)
     vocab = sorted(vocab_set, key=lambda t: (len(t), t))
     vidx = {t: i for i, t in enumerate(vocab)}
     order_of = np.array([len(t) for t in vocab])
 
-    n_pool = ds.n_pool
-    idf = np.array([np.log((1.0 + n_pool) / (1.0 + df.get(t, 0))) + 1.0 for t in vocab])
+    idf = np.array([np.log((1.0 + n_docs) / (1.0 + df.get(t, 0))) + 1.0 for t in vocab])
 
     def _mat(list_of_subs, n_rows):
         rows, cols = [], []
@@ -68,7 +81,7 @@ def build_order_features(ds: Dataset, N: int):
         D = sparse.diags(1.0 / norms)
         return (D @ M).tocsr()
 
-    Pmat = _mat(prod_subsets, n_pool)
+    Pmat = _mat(prod_subsets, ds.n_pool)
     Qmat = _mat(query_subsets, len(ds.queries))
     meta = {"vocab": vocab, "idf": idf, "order_of": order_of,
             "prod_subsets": prod_subsets, "query_subsets": query_subsets, "df": df}
